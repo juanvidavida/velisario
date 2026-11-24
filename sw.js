@@ -3,7 +3,7 @@
 /* Cambiare CACHE solo se cambia l'elenco dei file di SHELL.
    I contenuti si aggiornano da soli: ogni risorsa viene servita dalla cache
    e rinfrescata in background, quindi una modifica appare alla visita successiva. */
-const CACHE = "velisario-v3";
+const CACHE = "velisario-v4";
 const SHELL = [
   "./",
   "index.html",
@@ -11,6 +11,7 @@ const SHELL = [
   "testi.js",
   "app.js",
   "data/voci.json",
+  "data/voci-es.json",
   "data/fonti.json",
   "manifest.webmanifest",
   "icon.svg",

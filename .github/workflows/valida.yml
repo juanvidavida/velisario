@@ -20,3 +20,5 @@ jobs:
           python-version: "3.x"
       - name: Valida data/voci.json e data/fonti.json
         run: python3 scripts/valida.py
+      - name: Valida data/voci-es.json
+        run: python3 scripts/valida_es.py

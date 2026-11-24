@@ -1,6 +1,6 @@
 # Velisario
 
-Velisario es una adaptación al español de [Veliglotta](https://github.com/gissimo/veliglotta), el diccionario de vela multilingüe creado por Giorgio Stampa (gissimo). Conserva los términos, las fuentes y el sistema de verificación del original. La interfaz está en español y se puede cambiar al italiano.
+Velisario es una adaptación al español de [Veliglotta](https://github.com/gissimo/veliglotta), el diccionario de vela multilingüe creado por Giorgio Stampa (gissimo). Conserva los términos, las fuentes y el sistema de verificación del original. La interfaz está en español y se puede cambiar al italiano. Las definiciones y notas están traducidas al español de España y adaptadas para lectores hispanohablantes en `data/voci-es.json`; con la interfaz en italiano se muestran las originales.
 
 Los datos se publican con licencia CC BY-SA 4.0, como los originales (ver `LICENSE-DATA.md`); el código, con licencia MIT (ver `LICENSE`). La documentación técnica que sigue es la del proyecto original, en italiano.
 
@@ -14,6 +14,7 @@ Dizionario di termini velici in inglese, italiano, francese e spagnolo. Sito sta
 
 - `data/voci.json`: unica fonte di verità, un oggetto per concetto.
 - `data/fonti.json`: catalogo delle fonti citate, una riga per opera.
+- `data/voci-es.json`: definizioni e note in spagnolo per id, controllate da `scripts/valida_es.py`. Il campo facoltativo `titolo` distingue le schede il cui primo termine spagnolo è uguale, come «través (costado)» e «través (rumbo)».
 - `index.html`, `app.js`, `style.css`: interfaccia e ricerca, senza dipendenze.
 - `testi.js`: testi dell'interfaccia in spagnolo (predefinito) e italiano.
 - `sw.js`, `manifest.webmanifest`, icone: uso offline e installazione sul telefono.

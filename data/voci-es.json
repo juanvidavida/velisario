@@ -1,0 +1,836 @@
+{
+  "schema": 1,
+  "voci": {
+    "scafo": {
+      "origine": "b39cba5351e8",
+      "definizione": "Cuerpo principal de la embarcación, la parte que flota."
+    },
+    "chiglia": {
+      "origine": "f1e29c6a5cf4",
+      "definizione": "Pieza longitudinal del fondo del casco. En los veleros designa también el apéndice fijo, normalmente lastrado, que da estabilidad al barco y reduce el abatimiento.",
+      "nota": "El término abarca dos cosas: la pieza estructural sobre la que se apoya el casco y el apéndice fijo que va debajo. En español orza se usa también para el apéndice lastrado de los cruceros, pero designa sobre todo la orza móvil de las embarcaciones ligeras; el italiano orza no tiene este sentido (véase orza)."
+    },
+    "timone": {
+      "origine": "97b1781f10b7",
+      "definizione": "Superficie sumergida a popa que, al girar, gobierna el rumbo de la embarcación.",
+      "nota": "En francés safran es la pala sumergida y gouvernail el conjunto del sistema de gobierno (pala, mecha, caña o rueda), aunque gouvernail sigue siendo la traducción corriente de rudder. En italiano timone designa a menudo también todo el sistema de gobierno, rueda incluida. En inglés helm designa el puesto de gobierno o la acción de gobernar."
+    },
+    "barra": {
+      "origine": "8494d643b154",
+      "definizione": "Palanca fijada a la cabeza del timón con la que se gobierna directamente, como alternativa a la rueda.",
+      "nota": "En italiano la caña se llama barra. En francés barre a secas puede designar también el timón de rueda o el puesto de gobierno; por eso se precisa barre franche."
+    },
+    "albero": {
+      "origine": "806451f0f920",
+      "definizione": "Palo vertical que sostiene las velas y la jarcia."
+    },
+    "boma": {
+      "origine": "394be5aa3625",
+      "definizione": "Percha horizontal articulada en el mástil que sostiene el pujamen de la vela mayor.",
+      "nota": "Atención al género: en francés bôme es femenino y en italiano boma es masculino."
+    },
+    "vela": {
+      "origine": "bcfa252552d0",
+      "definizione": "Superficie de tejido izada en el aparejo, que recibe la acción del viento y la transforma en el empuje que hace avanzar el barco.",
+      "nota": "Polisémico: en español, italiano y francés, vela y voile designan también el deporte (hacer vela, fare vela, faire de la voile), que en inglés se llama sailing, no sail."
+    },
+    "randa": {
+      "origine": "5dad75ef8511",
+      "definizione": "Vela principal, envergada en el mástil y fijada a la botavara."
+    },
+    "fiocco": {
+      "origine": "86e9ab081c26",
+      "definizione": "Vela triangular de proa, envergada en el estay, por delante del mástil.",
+      "nota": "El génova es un foque más grande que se superpone en parte a la mayor (véase génova). En inglés jib se usa también en sentido genérico para cualquier vela de proa."
+    },
+    "scotta": {
+      "origine": "aa0ce749465d",
+      "definizione": "Cabo que regula el ángulo de una vela respecto al viento.",
+      "nota": "En inglés sheet designa el cabo, no la vela."
+    },
+    "drizza": {
+      "origine": "979a59625ae7",
+      "definizione": "Cabo que sirve para izar una vela y mantenerla izada."
+    },
+    "cima": {
+      "origine": "b7976e5e04cb",
+      "definizione": "Cualquier cabo textil que se usa a bordo para una función concreta.",
+      "nota": "Falso amigo: el italiano cima es el cabo, no la parte más alta de algo. En italiano se dice también cavo, que designa además los cables de acero y los eléctricos."
+    },
+    "winch": {
+      "origine": "37283b748b2d",
+      "definizione": "Cabrestante de tambor, manual o eléctrico, que sirve para tensar escotas y drizas.",
+      "nota": "Polisémico: el italiano verricello designa también el molinete del ancla, y el español winche y el francés treuil tienen también el sentido genérico de cabrestante."
+    },
+    "galloccia": {
+      "origine": "29bc1262a429",
+      "definizione": "Pieza con dos cuernos en la que se afirma un cabo dándole varias vueltas y rematándolo con un nudo."
+    },
+    "prua": {
+      "origine": "0a4537a19fdd",
+      "definizione": "Extremo delantero del casco.",
+      "nota": "En francés, para la parte delantera del barco se dice normalmente avant; proue es más literario. La pieza que cierra el casco a proa es la roda (véase roda)."
+    },
+    "poppa": {
+      "origine": "3d9b41ee9c31",
+      "definizione": "Extremo trasero del casco.",
+      "nota": "Para la navegación con el viento por la popa, véase en popa. En francés, para la parte trasera del barco se dice normalmente arrière; poupe es más literario."
+    },
+    "bolina": {
+      "origine": "2c1800377053",
+      "definizione": "Rumbo en el que el barco navega lo más cerca posible de la dirección de la que viene el viento.",
+      "nota": "En francés se dice au plus près o au près. En inglés close-hauled es el rumbo, y beating es remontar el viento con una serie de viradas."
+    },
+    "virata": {
+      "origine": "ffc3046c1eb1",
+      "definizione": "Maniobra que hace pasar la proa por la línea del viento y en la que el barco cambia de amura.",
+      "nota": "En inglés tack designa también el puño de amura (véase puño de amura). En español se dice también virada por avante. En francés virement de bord es genérico: para la virada por avante se precisa vent devant."
+    },
+    "strambata": {
+      "origine": "58b460b4baf1",
+      "definizione": "Maniobra que hace pasar la popa por la línea del viento y en la que el barco cambia de amura.",
+      "nota": "Gybe es la grafía británica y jibe la estadounidense. En inglés gybe es a la vez sustantivo y verbo."
+    },
+    "bussola": {
+      "origine": "0f867694e39f",
+      "definizione": "Instrumento que indica el norte magnético y permite mantener un rumbo y tomar marcaciones.",
+      "nota": "En español compás es la forma náutica y brújula el término general. En francés pasa lo mismo con compas, la aguja de a bordo, y boussole, el término general, aunque el comercio náutico llama también boussole a los compases de marcación portátiles."
+    },
+    "bonaccia": {
+      "origine": "43f7335c3c16",
+      "definizione": "Ausencia de viento, o viento casi nulo, con la mar en calma.",
+      "nota": "No debe confundirse con la caída momentánea del viento, que en inglés es lull y en francés accalmie. El adjetivo es encalminé en francés y becalmed en inglés."
+    },
+    "attrezzatura": {
+      "origine": "96d9e7b860b6",
+      "definizione": "Conjunto de elementos que se montan en el casco para que el barco navegue y se gobierne: palos, velas, cabos y accesorios.",
+      "nota": "Término genérico. No debe confundirse con el aparejo (véase aparejo), que en italiano a menudo se llama simplemente attrezzatura."
+    },
+    "manovre": {
+      "origine": "4a783baff572",
+      "definizione": "Operaciones con las que se mueve el barco y se le hace cambiar de rumbo, como virar, trasluchar u orzar.",
+      "nota": "Término polisémico. En italiano y en francés manovre y manœuvres designan también los cabos de la jarcia (manovre correnti e dormienti, manœuvres courantes); en inglés ese sentido es rigging o lines. Aquí se entiende en el sentido de operaciones. En español maniobra abarca los dos sentidos: el arte de mover el barco y el trabajo con el aparejo y las velas. Manoeuvre es la grafía británica."
+    },
+    "navigazione": {
+      "origine": "f33a9bcd5ec2",
+      "definizione": "Conjunto de técnicas para determinar la posición y para trazar y seguir el rumbo.",
+      "nota": "Diferencia de alcance: en inglés sailing se usa para la navegación a vela y navigation sobre todo para la técnica de determinar la posición y el rumbo. En español navegación abarca los dos sentidos (navegación a vela)."
+    },
+    "meteo": {
+      "origine": "d24ee210bd76",
+      "definizione": "Estado de la atmósfera en un lugar y un momento concretos: viento, nubes, lluvia, temperatura.",
+      "nota": "Término polisémico: tiempo, tempo y temps designan también el tiempo cronológico. No debe confundirse con la meteorología, que es la ciencia, ni con el clima. El italiano meteo y el francés météo son formas coloquiales, que designan también el parte o la previsión meteorológica."
+    },
+    "deriva": {
+      "origine": "0489464b5898",
+      "definizione": "Apéndice móvil que atraviesa el fondo del casco y se puede subir o bajar, girando sobre un eje o deslizándose en vertical. Se usa sobre todo en embarcaciones ligeras sin lastre, para reducir el abatimiento.",
+      "nota": "Hay dos tipos: la orza de pivote, que gira sobre un eje, y la orza de sable, que se desliza en vertical (véanse orza de pivote y orza de sable). En inglés centreboard se usa a menudo en sentido genérico, aunque en sentido estricto es la de pivote. Falsos amigos: el italiano deriva designa esta orza, además del sentido de ir a la deriva, mientras que la deriva española, como el francés dérive, es sobre todo el desplazamiento lateral del barco (véase abatimiento). Y el italiano orza no es ningún apéndice, sino el costado de barlovento (véase orzar). Para el apéndice fijo, véase quilla."
+    },
+    "deriva-basculante": {
+      "origine": "1cb812a60443",
+      "titolo": "orza de pivote",
+      "definizione": "Orza que gira sobre un eje transversal y se levanta girando hacia popa dentro de su cajera.",
+      "nota": "Si toca fondo, normalmente gira hacia popa y se levanta, a diferencia de la orza de sable (véase orza de sable). Polisémico en inglés: centreboard designa también la orza en general (véase orza). Lo mismo pasa con el español orza, que en sentido estricto es la orza de pivote pero en el uso designa cualquier orza. En italiano es la deriva basculante."
+    },
+    "deriva-a-baionetta": {
+      "origine": "498986c564ed",
+      "definizione": "Apéndice móvil que se introduce en una cajera en el centro del casco y se desliza en vertical, sin girar, para subirlo o bajarlo. Reduce el abatimiento igual que la orza de pivote.",
+      "nota": "En el uso también se dice simplemente orza, deriva en italiano o dérive en francés para este tipo. A diferencia de la orza de pivote, si toca fondo no se levanta sola (véase orza de pivote)."
+    },
+    "bulbo": {
+      "origine": "3cee6c6fb47b",
+      "definizione": "Masa de lastre de forma hidrodinámica fijada al extremo inferior de la quilla, para bajar el centro de gravedad del barco.",
+      "nota": "En francés saumon es el término tradicional. Polisémico: bulbo designa también el bulbo de proa de los buques."
+    },
+    "scarroccio": {
+      "origine": "c964b7797c2e",
+      "definizione": "Desplazamiento lateral del barco hacia sotavento respecto a la dirección a la que apunta la proa, causado por el empuje del viento.",
+      "nota": "En español abatimiento es el desplazamiento debido al viento, mientras que deriva se usa más para el debido a la corriente, aunque a menudo también para el abatimiento. Ojo: el italiano deriva no es este desplazamiento, sino la orza (véase orza). En italiano se distingue scarrocciare, por efecto del viento, de derivare, por efecto de la corriente; en francés se dice dériver en los dos casos."
+    },
+    "prodiere": {
+      "origine": "c1c3d61c11f8",
+      "definizione": "Tripulante que trabaja en la proa: prepara y cambia las velas de proa, ayuda a izarlas y arriarlas y controla el tangón."
+    },
+    "pianista": {
+      "origine": "4af55a19d307",
+      "titolo": "piano (tripulante)",
+      "definizione": "Tripulante que, en el centro del barco, maneja las drizas y otros cabos bloqueados en los stoppers.",
+      "nota": "Jerga de regata. En italiano se dice drizzista, y también se oye pianista. En inglés el puesto y la zona se llaman ambos pit; en francés piano es el embraque au vent, y en español y en francés piano designa también la zona de los stoppers; véase piano (zona de cubierta)."
+    },
+    "trimmer": {
+      "origine": "396e93f7861f",
+      "definizione": "Tripulante que regula una vela, normalmente el foque o la mayor, para sacarle el máximo rendimiento.",
+      "nota": "Se distingue el trimmer de las velas de proa del de la mayor."
+    },
+    "tattico": {
+      "origine": "c61e451441b8",
+      "definizione": "Tripulante que en regata decide la estrategia: por dónde ir en el campo de regatas, cuándo virar, cómo controlar a los rivales."
+    },
+    "timoniere": {
+      "origine": "654cba125b54",
+      "definizione": "Persona que gobierna el barco con el timón, mediante la caña o la rueda.",
+      "nota": "En inglés se usa también helm como verbo y, en regata, driver. En femenino se dice barreuse en francés y timoniera en italiano; en español, la timonel."
+    },
+    "traverso": {
+      "origine": "aebdabdc4f13",
+      "titolo": "través (costado)",
+      "definizione": "Costado del barco en su parte central, y dirección perpendicular al eje longitudinal del casco.",
+      "nota": "Polisémico en inglés: beam es también la anchura del casco (véase manga). De través se dice abeam. Para el rumbo con el viento de través, véase través (rumbo)."
+    },
+    "sinistra": {
+      "origine": "e4a2629e828f",
+      "definizione": "Costado izquierdo del barco mirando hacia proa.",
+      "nota": "En italiano no hay un término náutico propio: se dice sinistra. En francés, en frases corrientes como virar a la izquierda, se dice gauche y droite. Babordo aparece en los diccionarios italianos, pero es un calco del francés bâbord difundido por traducciones y novelas de aventuras: la marina italiana no lo usa."
+    },
+    "dritta": {
+      "origine": "9e5d1f696e84",
+      "definizione": "Costado derecho del barco mirando hacia proa.",
+      "nota": "En italiano se dice dritta. Tribordo aparece en los diccionarios italianos, pero es un calco del francés tribord difundido por traducciones y novelas de aventuras: la marina italiana no lo usa."
+    },
+    "lunghezza-fuori-tutto": {
+      "origine": "c2e4dce093ad",
+      "definizione": "Longitud máxima del barco, medida entre los puntos extremos de proa y de popa.",
+      "nota": "En español eslora a secas designa la longitud en general, y hay varios tipos de eslora según los puntos de referencia."
+    },
+    "baglio-massimo": {
+      "origine": "33eae9b8e984",
+      "definizione": "Anchura máxima del casco.",
+      "nota": "Polisémico. En italiano baglio es también el bao, la viga transversal que sostiene la cubierta. En español manga es también cada prueba de una regata. En inglés beam es también el través; véase través (costado)."
+    },
+    "pescaggio": {
+      "origine": "e1fb4a8abc2f",
+      "definizione": "Profundidad de la parte sumergida del barco, medida en vertical desde la línea de flotación hasta su punto más bajo, normalmente la quilla.",
+      "nota": "Draught es la grafía británica y draft la estadounidense."
+    },
+    "opera-viva": {
+      "origine": "caebae1c5253",
+      "definizione": "Parte del casco que queda por debajo de la línea de flotación.",
+      "nota": "En francés œuvres vives se usa en plural."
+    },
+    "opera-morta": {
+      "origine": "a2ec41f117cd",
+      "definizione": "Parte del casco que queda por encima de la línea de flotación.",
+      "nota": "En francés œuvres mortes se usa en plural."
+    },
+    "linea-di-galleggiamento": {
+      "origine": "34d63c343c8b",
+      "definizione": "Línea que dibuja el agua en el casco cuando el barco flota en equilibrio."
+    },
+    "elica": {
+      "origine": "0b871956b1b0",
+      "definizione": "Pieza giratoria que propulsa el barco cuando navega a motor.",
+      "nota": "No es un término de vela en sentido estricto."
+    },
+    "candeliere": {
+      "origine": "380fc7391623",
+      "definizione": "Barra vertical fijada en el borde de la cubierta que sostiene los guardamancebos."
+    },
+    "draglia": {
+      "origine": "d41cfaff5b27",
+      "definizione": "Cable tendido entre los candeleros a lo largo del borde de la cubierta, que hace de barandilla.",
+      "nota": "En francés se dice también filières de sauvegarde, y en italiano cavi di sicurezza. En español guardamancebos no cambia en singular y plural."
+    },
+    "boccaporto": {
+      "origine": "9a8f74faaeb0",
+      "definizione": "Abertura en la cubierta, cerrada por una tapa, para bajar al interior, dar luz y ventilación o pasar las velas.",
+      "nota": "En los buques, el boccaporto italiano es la escotilla de las bodegas. El osteriggio es propiamente la tapa acristalada que hace de lumbrera. En las embarcaciones de recreo los italianos dicen también passauomo."
+    },
+    "carrello-del-fiocco": {
+      "origine": "60e7360534cd",
+      "definizione": "Motón montado en un carro que corre por un carril de cubierta y que fija el punto desde el que la escota del foque tira de la vela.",
+      "nota": "En inglés traveller designa normalmente el carro de la mayor (véase carro de la mayor)."
+    },
+    "stopper": {
+      "origine": "7992d07ef23d",
+      "definizione": "Dispositivo de palanca que bloquea un cabo en tensión y permite liberarlo incluso bajo carga.",
+      "nota": "No debe confundirse con la mordaza (taquet coinceur en francés, jam cleat o clam cleat en inglés, strozzatore en italiano), que aprisiona el cabo entre dos piezas."
+    },
+    "piano": {
+      "origine": "7bc922a3f992",
+      "titolo": "piano (zona de cubierta)",
+      "definizione": "Zona de la cubierta, delante de la bañera, donde se agrupan los stoppers de las drizas y de otros cabos.",
+      "nota": "Jerga de regata. Polisémico: designa también al tripulante que trabaja en ella; véase piano (tripulante)."
+    },
+    "carrello-randa": {
+      "origine": "68fe648961c0",
+      "definizione": "Carro que corre por un carril transversal y lleva el aparejo de la escota de la mayor, para desplazar su punto de tiro.",
+      "nota": "En italiano se dice también carrello della randa. No debe confundirse con el carro del génova (véase carro del génova). En inglés se dice también mainsheet traveller."
+    },
+    "strallo": {
+      "origine": "ea1d32f2b2e7",
+      "definizione": "Cable fijo que sujeta el mástil hacia proa y en el que se enverga el foque.",
+      "nota": "En español estay y stay son equivalentes: stay es un anglicismo aceptado en el uso. Un estay interior que se puede desmontar es el estay volante (véase estay volante)."
+    },
+    "paterazzo": {
+      "origine": "8c18c7a7a29d",
+      "definizione": "Cable fijo que sujeta el mástil hacia popa, desde el tope del palo hasta el espejo de popa."
+    },
+    "babystay": {
+      "origine": "b70beda5c6d3",
+      "definizione": "Estay interior más corto, fijado más abajo en el mástil, que controla su flexión.",
+      "nota": "En italiano stralletto designa tanto el babyestay como el estay interior de los cúteres en el que se enverga la trinquetilla (véase estay volante). No debe confundirse con el inner forestay inglés, que es este último. En el italiano hablado se oye también babystay. En español babyestay y baby stay son equivalentes."
+    },
+    "volante": {
+      "origine": "0fb727c6968b",
+      "definizione": "Cable móvil que sujeta el mástil hacia popa por la banda de barlovento y que se suelta por la de sotavento en cada virada o trasluchada."
+    },
+    "sartia": {
+      "origine": "4658fa77c237",
+      "definizione": "Cable fijo que sujeta el mástil lateralmente, a una y otra banda del barco.",
+      "nota": "Diferencia de alcance: el italiano sartia designa el obenque, mientras que el español jarcia tiene un sentido mucho más amplio (véase jarcia firme). En francés el galhauban es el obenque que llega al tope del palo (véase obenque alto); véase también obenquillo."
+    },
+    "sartia-bassa": {
+      "origine": "da039c4e8a0f",
+      "definizione": "Obenque más corto que sujeta el mástil lateralmente hasta la altura de una cruceta.",
+      "nota": "En español se distinguen obenques altos, intermedios y bajos, pero también se dice obenquillo alto y bajo. En francés el obenque alto es el galhauban. Con dos o más pisos de crucetas se distinguen obenques altos, intermedios y bajos según el punto del mástil en que se fijan: el obenque intermedio, en inglés intermediate shroud, no es el obenquillo."
+    },
+    "crocetta": {
+      "origine": "e0f498939e41",
+      "definizione": "Brazo horizontal fijado al mástil que separa los obenques y mejora su ángulo de trabajo."
+    },
+    "testa-d-albero": {
+      "origine": "07a9fc6e3485",
+      "definizione": "Extremo superior del mástil."
+    },
+    "trozza": {
+      "origine": "b58967f8d6eb",
+      "definizione": "Articulación que une la botavara al mástil y le permite girar.",
+      "nota": "Polisémico en español: pinzote es la pieza que une la botavara al mástil, pero designa también el macho del timón. También se dice gansera."
+    },
+    "tangone": {
+      "origine": "93f641b06a86",
+      "definizione": "Percha fijada al mástil que saca por fuera de la borda y mantiene abierta una vela de proa, sobre todo el spinnaker."
+    },
+    "genoa": {
+      "origine": "aa3f95b48f8b",
+      "definizione": "Foque grande que ocupa todo el triángulo de proa y se superpone en parte a la mayor.",
+      "nota": "En inglés también genoa jib. A menudo va montado en un enrollador (véase enrollador)."
+    },
+    "tormentina": {
+      "origine": "d12537bd5c63",
+      "definizione": "Foque pequeño de tejido pesado que se usa con viento muy fuerte."
+    },
+    "spinnaker": {
+      "origine": "bafcb3266817",
+      "definizione": "Vela grande, ligera y muy embolsada que se lleva en los rumbos portantes.",
+      "nota": "El spinnaker simétrico se lleva con tangón; el asimétrico se amura en la proa o en un botalón (véase spinnaker asimétrico). En la jerga de a bordo se oye también kite en inglés y spi en italiano."
+    },
+    "inferitura": {
+      "origine": "7e5808a22618",
+      "definizione": "Lado delantero de la vela, el que se fija al mástil o al estay y por el que entra el viento.",
+      "nota": "Polisémico en inglés: to luff significa también orzar."
+    },
+    "balumina": {
+      "origine": "b00319009703",
+      "definizione": "Lado de popa de la vela, por el que sale el viento."
+    },
+    "base": {
+      "origine": "b72f3205f289",
+      "definizione": "Lado inferior de la vela, entre el puño de amura y el de escota.",
+      "nota": "En francés se dice también bordant."
+    },
+    "penna": {
+      "origine": "34c464ef1d14",
+      "definizione": "Puño superior de la vela, en el que se fija la driza.",
+      "nota": "En francés la têtière es propiamente el refuerzo del puño de driza."
+    },
+    "bugna": {
+      "origine": "cbc97eb233b5",
+      "definizione": "Puño inferior de popa de la vela, en el que se fijan las escotas.",
+      "nota": "En italiano bugne son en general los puños inferiores de las velas."
+    },
+    "mura": {
+      "origine": "0d188693ed56",
+      "definizione": "Puño inferior de proa de la vela, fijado en cubierta o junto al pinzote.",
+      "nota": "Polisémico. En italiano mura es también el cabo que sujeta el puño, y mure a dritta indica la banda por la que entra el viento, como amurado a estribor. En inglés tack es también la virada (véase virada). Equivalencia parcial: el italiano mura comparte varios sentidos con el español amura, pero no designa los costados de la proa, que en español se llaman amuras."
+    },
+    "terzarolo": {
+      "origine": "b30235ffe5f1",
+      "definizione": "Reducción de la superficie de una vela que se consigue plegando y atando su parte baja. Designa también la faja de vela que se pliega.",
+      "nota": "En español rizo designa también el cabo que sirve para tomarlo. En inglés reef es también el verbo, tomar rizos."
+    },
+    "matafione": {
+      "origine": "a59f81619217",
+      "definizione": "Cada uno de los cabitos cosidos a la vela que sirven para atar la parte plegada cuando se toma un rizo.",
+      "nota": "Se usa sobre todo en plural: matafiones, garcettes, matafioni."
+    },
+    "borosa": {
+      "origine": "9ddc5c64a34f",
+      "definizione": "Cabo que, al tomar un rizo, lleva hacia la botavara el nuevo puño de escota de la mayor, por el lado de la baluma.",
+      "nota": "En francés se dice también empointure de ris, y en inglés reef earing, término tradicional. Polisémico: en inglés reef line designa también el matafión (reef point). Para el lado de la amura, véase amura de rizo."
+    },
+    "gancio-terzaroli": {
+      "origine": "88da27cbe300",
+      "definizione": "Gancho del pinzote en el que se engancha el ollao de amura de un rizo.",
+      "nota": "Está en el pinzote (véase pinzote). En inglés se llama también ram's horn, cuerno de carnero, como el español aries."
+    },
+    "amantiglio": {
+      "origine": "97d409e72901",
+      "definizione": "Cabo que sostiene el extremo de popa de la botavara y regula su altura.",
+      "nota": "En francés se dice también hale-haut. Para el tangón, véase amantillo del tangón."
+    },
+    "tesabase": {
+      "origine": "686b087bd801",
+      "definizione": "Cabo que tira del puño de escota de la mayor a lo largo de la botavara y regula la tensión del pujamen."
+    },
+    "cunningham": {
+      "origine": "3ae2df911db7",
+      "definizione": "Cabo que tira hacia abajo de un ollao situado cerca del puño de amura de la mayor, para regular la tensión del grátil.",
+      "nota": "Debe su nombre a Briggs Cunningham. El ollao se llama ollao Cunningham, en inglés Cunningham hole."
+    },
+    "vang": {
+      "origine": "bdb5962970bf",
+      "definizione": "Aparejo o pistón entre la botavara y el pie del mástil que tira de la botavara hacia abajo y controla la forma de la mayor.",
+      "nota": "En italiano se dice también ritenuta del boma. Ojo con el parecido: en español retenida designa sobre todo el cabo que impide la trasluchada involuntaria (en inglés preventer), así que ritenuta del boma no se traduce por retenida, sino por contra. En el francés de Quebec, hale-bas es en cambio el cabo que hace bajar un foque (en inglés downhaul)."
+    },
+    "caricabasso": {
+      "origine": "f45b004b6d67",
+      "definizione": "Cabo que sujeta el tangón hacia abajo, en oposición al amantillo del tangón (véase amantillo del tangón).",
+      "nota": "En inglés se dice también pole downhaul."
+    },
+    "manovre-correnti": {
+      "origine": "ef7e91eeb746",
+      "definizione": "Conjunto de cabos móviles que sirven para izar y regular las velas, como drizas, escotas y amantillos, por oposición a la jarcia firme.",
+      "nota": "En español cabuyería, o cabullería, designa el conjunto de todos los cabos de a bordo, no solo los de labor. Lo contrario es la jarcia firme, standing rigging, gréement dormant, manovre fisse o dormienti (véase jarcia firme)."
+    },
+    "vento": {
+      "origine": "91bc505d4484",
+      "definizione": "Movimiento horizontal del aire debido a las diferencias de presión atmosférica. A quien navega a vela le interesan sobre todo su dirección y su intensidad.",
+      "nota": "A bordo se distingue el viento real del viento aparente (véanse las dos fichas). Polisémico: en español, y a partir del español también en italiano, viento designa además un cabo que sujeta una percha saliente o un objeto vertical."
+    },
+    "vento-reale": {
+      "origine": "0eec5eeaa558",
+      "definizione": "Viento que sopla sobre el agua tal como lo mediría un observador inmóvil, independientemente del movimiento del barco.",
+      "nota": "Se opone al viento aparente (véase viento aparente). En regata es la referencia para los ángulos de rumbo, por ejemplo navegar a más de 90 grados del viento real. En francés se abrevia V. R."
+    },
+    "vento-apparente": {
+      "origine": "53f4ea0cc527",
+      "definizione": "Viento que se percibe a bordo del barco en movimiento: resulta de combinar el viento real con el que genera la velocidad del barco.",
+      "nota": "Es el viento con el que se regulan las velas y el que indican la veleta y los catavientos. En ceñida llega más fuerte y más de proa que el viento real; en popa, más flojo. En francés se abrevia V. A. El francés vent relatif designa el mismo fenómeno en otros ámbitos, como las palas de los aerogeneradores; en vela se dice vent apparent."
+    },
+    "sopravvento": {
+      "origine": "54b01b3db2a6",
+      "definizione": "Lado del que viene el viento, respecto al barco o a quien observa. La banda de barlovento del barco es la que recibe el viento.",
+      "nota": "Se usa sobre todo como adverbio o adjetivo: estar a barlovento, la banda de barlovento. En francés la forma corriente es la locución au vent; côté du vent, bord du vent y lof designan la banda del barco. En regata el barco de barlovento, o windward boat, es el que está a barlovento del otro, con reglas de preferencia propias. En el uso náutico italiano se prefiere la grafía sopravento. Lo contrario es sotavento."
+    },
+    "sottovento": {
+      "origine": "ff0e4ab57a46",
+      "definizione": "Lado hacia el que va el viento, opuesto a aquel del que viene. La banda de sotavento del barco es la que queda resguardada del viento y hacia la que normalmente escora el velero.",
+      "nota": "Se usa sobre todo como adverbio o adjetivo: navegar a sotavento, la banda de sotavento. En francés la forma corriente es la locución sous le vent; côté sous le vent designa la banda del barco. Con viento en popa, la banda de sotavento es aquella en la que está la mayor. En inglés leeward se pronuncia a menudo «looard». Lo contrario es barlovento."
+    },
+    "andatura": {
+      "origine": "86f9d5cfd128",
+      "titolo": "rumbo (respecto al viento)",
+      "definizione": "Manera de navegar de un velero definida por el ángulo entre su rumbo y la dirección de la que viene el viento: desde la ceñida, la más cerrada al viento, hasta la popa.",
+      "nota": "Los principales rumbos respecto al viento, del más cerrado al más abierto: ceñida, a un descuartelar, través, largo y en popa (véanse las fichas). El italiano distingue el lasco del gran lasco; en español los dos son largo, aunque para el más abierto se dice también viento por la aleta. En francés allures portantes designa los rumbos con el viento por detrás del través, pero el límite varía. En español rumbo designa ante todo la dirección que sigue el barco; véase rumbo (derrota). Para el ángulo con el viento se usa en expresiones como rumbo de ceñida."
+    },
+    "andatura-al-traverso": {
+      "origine": "1eefe085f420",
+      "titolo": "través (rumbo)",
+      "definizione": "Rumbo en el que el viento llega perpendicular al eje del barco, a unos 90 grados de la proa.",
+      "nota": "No debe confundirse con el través como costado del barco, que en español y en francés tiene el mismo nombre; véase través (costado). En italiano se distingue también la andatura di buon braccio, a unos 80 grados."
+    },
+    "lasco": {
+      "origine": "35fb7510709d",
+      "titolo": "largo (próximo al través)",
+      "definizione": "Rumbo en el que el viento entra un poco por detrás del través, a algo más de 90 grados de la proa.",
+      "nota": "En español largo abarca el lasco y el gran lasco italianos, y este es el menos abierto de los dos; para el más abierto, véase largo (viento por la aleta). Los límites angulares entre ambos varían. En francés se distingue el petit largue, entre el través y el largue, que sin embargo designa también el rumbo a un descuartelar (véase a un descuartelar); en italiano se dice también lasco stretto. Polisémico: en italiano lasco significa también flojo, dicho de un cabo; en inglés reach designa en general los rumbos entre el través y el largo, y a veces se traduce por través: hay que traducirlo según el contexto."
+    },
+    "gran-lasco": {
+      "origine": "ee7b0cd69829",
+      "titolo": "largo (viento por la aleta)",
+      "definizione": "Rumbo portante en el que el viento entra por la aleta, a unos 135 grados de la proa.",
+      "nota": "En español es una de las formas del largo, que abarca el lasco y el gran lasco italianos. Para precisarlo se dice navegar con el viento por la aleta, y en la formación para los títulos de recreo viento de aleta se distingue de a un largo como rumbo propio. Los límites angulares varían. Para el largo menos abierto, véase largo (próximo al través)."
+    },
+    "andatura-di-poppa": {
+      "origine": "807f7753ab83",
+      "definizione": "Rumbo en el que el viento llega por la popa, en la misma dirección en la que avanza el barco.",
+      "nota": "Con el viento exactamente por la popa se dice popa cerrada; en italiano in fil di ruota y en inglés dead run. En español empopada designa también el tramo de popa de un recorrido. Para la parte del barco, véase popa."
+    },
+    "gavone-dell-ancora": {
+      "origine": "e230b3bba496",
+      "definizione": "Compartimento a proa, cerrado por una tapa en cubierta, en el que se guardan el ancla y la cadena.",
+      "nota": "No debe confundirse con la caja de cadenas (chain locker, pozzo delle catene), el compartimento bajo cubierta en el que cae la cadena."
+    },
+    "amantiglio-del-tangone": {
+      "origine": "b5d019ab8497",
+      "definizione": "Cabo que sostiene el tangón desde arriba y regula su altura.",
+      "nota": "Trabaja en pareja con la contra del tangón (véase contra del tangón). No debe confundirse con el amantillo de la botavara (véase amantillo), que en inglés tiene el mismo nombre, topping lift."
+    },
+    "pulpito-di-poppa": {
+      "origine": "f9fd6e60fe7e",
+      "definizione": "Barandilla rígida en el extremo de popa, que cierra el recinto de los guardamancebos.",
+      "nota": "En inglés se dice sobre todo pushpit."
+    },
+    "pulpito-di-prua": {
+      "origine": "76b35fa4c412",
+      "definizione": "Barandilla rígida en el extremo de proa, a la que se fijan los guardamancebos."
+    },
+    "ruota-del-timone": {
+      "origine": "f91039a82f04",
+      "definizione": "Volante con el que se gobierna el barco, unido a la pala del timón mediante un sistema de transmisión.",
+      "nota": "Se opone a la caña (véase caña). En francés barre designa en general el mando del timón: barre franche es la caña y barre à roue la rueda."
+    },
+    "bompresso": {
+      "origine": "da2279511b21",
+      "definizione": "Percha que sobresale a proa, más allá del casco, para amurar más adelante una vela de proa o para tensar el estay.",
+      "nota": "En los barcos modernos suele ser una percha retráctil para el gennaker y el spinnaker asimétrico: en francés se llama bout-dehors, mientras que beaupré designa sobre todo el fijo de los barcos tradicionales. En español se usa botalón, que designa también otras perchas que sobresalen de la borda."
+    },
+    "braccio-dello-spinnaker": {
+      "origine": "3e5c4f9d34f2",
+      "definizione": "Cabo que regula el puño de amura del spinnaker por la banda de barlovento, pasando por el extremo del tangón.",
+      "nota": "Por la banda de sotavento, el cabo correspondiente es la escota del spinnaker (véase escota de spinnaker). En inglés guy designa también cualquier retenida."
+    },
+    "landa": {
+      "origine": "ef506721891e",
+      "definizione": "Placa robusta fijada al casco, a la que se sujeta el extremo inferior de un obenque o de un estay."
+    },
+    "scotta-dello-spinnaker": {
+      "origine": "ab3c05287aab",
+      "definizione": "Cabo que regula el puño de escota del spinnaker por la banda de sotavento.",
+      "nota": "Por la banda de barlovento, el cabo correspondiente es la braza (véase braza); después de una trasluchada, escota y braza intercambian sus funciones."
+    },
+    "strallo-amovibile": {
+      "origine": "fb1fe4f60cab",
+      "definizione": "Estay interior que se puede soltar y recoger cuando no se usa, para izar una trinquetilla o el tormentín.",
+      "nota": "En italiano stralletto designa tanto este estay como el babyestay (véase babyestay). Polisémico en español: estay volante se usa para este estay, pero designa también la burda (véase burda). En español estay volante y stay volante son equivalentes: stay es un anglicismo aceptado en el uso."
+    },
+    "dritto-di-prua": {
+      "origine": "e633ac04411d",
+      "definizione": "Pieza que cierra el casco a proa, desde la quilla hasta la cubierta, y en la que se unen los dos costados."
+    },
+    "sartia-alta": {
+      "origine": "22c25fef599d",
+      "definizione": "Obenque que va desde el tope del palo hasta la cubierta pasando por el extremo de las crucetas.",
+      "nota": "Se opone al obenquillo (véase obenquillo). El francés galhauban no debe traducirse por backstay, que es el backestay (véase backestay)."
+    },
+    "avvolgifiocco": {
+      "origine": "6697e0d1a5af",
+      "definizione": "Dispositivo que hace girar el estay, o un perfil montado en él, para enrollar a su alrededor la vela de proa y reducirla o recogerla.",
+      "nota": "El génova montado en un enrollador se llama genoa avvolgibile en italiano y génois sur enrouleur en francés. Para la mayor existe el enrollador en el mástil (in-mast furling, mât enrouleur, albero avvolgitore); en italiano el enrollador de mayor en general se llama avvolgiranda."
+    },
+    "falchetta": {
+      "origine": "58638aa7dea0",
+      "definizione": "Borde bajo que recorre el perímetro de la cubierta e impide que las personas y los objetos resbalen al agua.",
+      "nota": "El francés pavois y el inglés bulwark designan más bien la borda alta que sobresale por encima de la cubierta. En español regala es propiamente el borde superior del costado."
+    },
+    "segnavento": {
+      "origine": "ec5e73715730",
+      "definizione": "Cinta ligera cosida a la vela o atada a los obenques, que muestra cómo fluye el viento.",
+      "nota": "El francés girouette y el inglés wind vane designan en cambio la veleta del tope del palo."
+    },
+    "arridatoio": {
+      "origine": "98065ebb06c9",
+      "definizione": "Pieza roscada con la que se regula la tensión de obenques y estays."
+    },
+    "spinnaker-asimmetrico": {
+      "origine": "eb776f14ef3f",
+      "definizione": "Spinnaker con el grátil más largo que la baluma, amurado en la proa o en el botalón en lugar de en el tangón.",
+      "nota": "Polisémico: gennaker designa normalmente el spinnaker asimétrico, pero a veces una vela intermedia entre el génova y el spinnaker asimétrico."
+    },
+    "altezza-sopra-la-linea-di-galleggiamento": {
+      "origine": "e0bf00b77cab",
+      "definizione": "Distancia entre la línea de flotación y el punto más alto del barco, normalmente el tope del palo: indica bajo qué puentes se puede pasar.",
+      "nota": "En español altura es un término genérico."
+    },
+    "trinchetta": {
+      "origine": "a4e1b123237a",
+      "definizione": "Vela de proa pequeña envergada en un estay interior, por detrás del estay de proa.",
+      "nota": "Falso amigo: la trinqueta española y el trinchetto italiano designan el palo de proa de los buques y su vela, y trinqueta designa además una vela de proa que no llega al tope del palo. El italiano trinchetta es la trinquetilla."
+    },
+    "solent": {
+      "origine": "0bb515b40f9a",
+      "definizione": "Vela de proa de superficie intermedia entre el foque y el génova, con poco o ningún solapamiento con la mayor.",
+      "nota": "En muchos barcos modernos admite rizos."
+    },
+    "borosa-di-mura": {
+      "origine": "cd74bcfd0a22",
+      "definizione": "Cabo que, al tomar un rizo, lleva hacia la botavara el nuevo puño de amura de la mayor.",
+      "nota": "Complementa el cabo que tira del lado de la baluma (véase cabo del rizo). En muchos barcos el puño de amura se engancha en cambio en un gancho junto a la botavara (véase aries). En español amura de rizo designa el nuevo puño de amura, que se fija con este cabo o con un gancho."
+    },
+    "attrezzatura-velica": {
+      "origine": "682eea73b9d2",
+      "definizione": "Conjunto de palos, botavara, jarcia y cabos que sostienen y regulan las velas.",
+      "nota": "Polisémico en italiano: attrezzatura designa también el equipamiento en general (véase equipamiento). En italiano armo se usa para el tipo de aparejo, como en armo a sloop, pero designa también la tripulación de un barco de regatas."
+    },
+    "inferire": {
+      "origine": "8193168ff533",
+      "definizione": "Fijar el lado de una vela a su palo, estay o botavara, para poder izarla y regularla.",
+      "nota": "Engarruchar, hank on, endrailler e ingarrocciare designan en particular la acción de envergar una vela de proa en el estay con garruchos. No debe confundirse con el grátil, el lado de la vela (véase grátil), que en italiano se llama inferitura."
+    },
+    "bracciare": {
+      "origine": "c43148e54788",
+      "definizione": "Regular la braza del spinnaker para llevar el tangón a la posición deseada respecto al viento.",
+      "nota": "En origen bracear es orientar las vergas de los veleros de velas cuadras; en los barcos actuales se usa para el tangón (véase braza)."
+    },
+    "lascare": {
+      "origine": "f508373d9c16",
+      "definizione": "Aflojar una escota o un cabo en tensión, dejándolo correr lo necesario.",
+      "nota": "En italiano lasco es también un rumbo, el largo; véase largo (próximo al través). En italiano se dice también allascare, pero a bordo se dice sobre todo lascare. No debe confundirse con filar (véase filar)."
+    },
+    "salpare-l-ancora": {
+      "origine": "70a8dc412400",
+      "definizione": "Recuperar el ancla del fondo y subirla a bordo.",
+      "nota": "En italiano salpare significa también zarpar (véase zarpar), y en español levar significa tanto levar anclas como zarpar. Lo contrario es fondear (véase fondear)."
+    },
+    "ormeggiarsi": {
+      "origine": "6d6a63abf4d9",
+      "definizione": "Sujetar el barco a un muelle, a otro barco o a una boya con los cabos de amarre.",
+      "nota": "El sustantivo designa tanto la operación como el lugar donde se está amarrado. En italiano ormeggio designa también el cabo (véase amarra), y ormeggio di prua o di poppa también la manera de amarrarse; véanse amarre de punta (por proa) y amarre de punta (por popa)."
+    },
+    "orzare": {
+      "origine": "53dc49d023d9",
+      "definizione": "Cambiar de rumbo llevando la proa más cerca de la dirección de la que viene el viento.",
+      "nota": "Lo contrario es arribar (véase arribar). Falso amigo: el verbo es el mismo en italiano, orzare, pero el sustantivo no: en italiano orza es el costado de barlovento, y en español es el apéndice móvil (véase orza)."
+    },
+    "poggiare": {
+      "origine": "94b427e4d2e9",
+      "definizione": "Cambiar de rumbo alejando la proa de la dirección de la que viene el viento.",
+      "nota": "Lo contrario es orzar (véase orzar). Polisémico en español: arribar significa también llegar a puerto."
+    },
+    "straorzare": {
+      "origine": "9c6370f0dd37",
+      "definizione": "Orzar de golpe y sin control, normalmente por una racha o una ola, cuando se lleva demasiado trapo."
+    },
+    "cazzare": {
+      "origine": "8bc73e9b2d09",
+      "definizione": "Cobrar una escota u otro cabo para tensarlo. Si es una escota, la vela se acerca al eje del barco.",
+      "nota": "Lo contrario es lascar (véase lascar)."
+    },
+    "filare": {
+      "origine": "47c904cc2c8d",
+      "definizione": "Dejar correr poco a poco un cabo, un cable o una cadena en tensión, por ejemplo la del ancla.",
+      "nota": "No debe confundirse con lascar, que se dice sobre todo de las escotas (véase lascar)."
+    },
+    "ammainare": {
+      "origine": "ab216003ee24",
+      "definizione": "Bajar una vela, una bandera u otro objeto izado, dejando correr el cabo que lo sostiene.",
+      "nota": "Lo contrario es izar (véase izar)."
+    },
+    "salpare": {
+      "origine": "a204ba052164",
+      "definizione": "Dejar el amarre o el fondeadero y partir.",
+      "nota": "En italiano salpare significa también levar anclas (véase levar anclas)."
+    },
+    "dar-fondo": {
+      "origine": "cf2a6ba64c72",
+      "definizione": "Echar el ancla al fondo para detener el barco.",
+      "nota": "En francés aparece sobre todo en las órdenes «Mouille!» y «Paré à mouiller?». El sustantivo fondeo designa la acción; fondeadero, ancoraggio y mouillage (en inglés anchorage) designan también el lugar donde se está fondeado. Lo contrario es levar anclas (véase levar anclas)."
+    },
+    "attraccare": {
+      "origine": "6b6a206f1d97",
+      "definizione": "Arrimar el barco a un muelle, a un pantalán o a otro barco para detenerse."
+    },
+    "sbandare": {
+      "origine": "f1c9e75ad60e",
+      "definizione": "Inclinarse lateralmente por el empuje del viento en las velas o por la carga. La escora es la propia inclinación, que se mide con el ángulo de escora.",
+      "nota": "En inglés heel es a la vez verbo y sustantivo. Heel es la escora pasajera, por el viento o las olas; la permanente, por pesos mal repartidos, en inglés es list. En francés la gîte, femenino, es la escora, mientras que le gîte es un alojamiento. El español escora designa también los puntales que sostienen el casco en el varadero."
+    },
+    "fileggiare": {
+      "origine": "510ab2173d37",
+      "definizione": "Sacudirse, dicho de una vela que recibe el viento de canto y no llega a llenarse."
+    },
+    "incocciare": {
+      "origine": "d7cca5381b49",
+      "titolo": "hacer firme",
+      "definizione": "Afirmar un cabo, por ejemplo el de amarre, a una argolla, a una bita o a una cornamusa.",
+      "nota": "No debe confundirse con el italiano dare volta, que es afirmar el cabo dándole vueltas en una cornamusa o una bita."
+    },
+    "recuperare-l-imbando": {
+      "origine": "4c054e843e02",
+      "definizione": "Cobrar un cabo flojo hasta que quede tenso, sin llegar a ponerlo bajo carga.",
+      "nota": "Haul in se usa también para cazar (véase cazar)."
+    },
+    "ancora": {
+      "origine": "7b676b464db9",
+      "definizione": "Pieza pesada que, echada al fondo con una cadena o un cabo, agarra y retiene el barco."
+    },
+    "cavo-di-ormeggio": {
+      "origine": "d36c4381acd8",
+      "definizione": "Cabo con el que se sujeta el barco a un muelle, a un pantalán, a una boya o a otro barco.",
+      "nota": "Tipos particulares son el esprín, la boza y el cabo guía (véanse las fichas); para el cabo en general, véase cabo."
+    },
+    "ormeggio-di-poppa": {
+      "origine": "8ea1e538f133",
+      "titolo": "amarre de punta (por popa)",
+      "definizione": "Amarre con la popa hacia el muelle y el barco perpendicular a él, sujeto a proa por un cabo guía o por el ancla.",
+      "nota": "Es el amarre más habitual en los puertos del Mediterráneo. En español amarre de punta vale tanto de popa como de proa; véase amarre de punta (por proa). En italiano ormeggio di poppa designa también el cabo de popa (véase boza)."
+    },
+    "ormeggio-di-prua": {
+      "origine": "6aab34ce8897",
+      "titolo": "amarre de punta (por proa)",
+      "definizione": "Amarre con la proa hacia el muelle y el barco perpendicular a él, sujeto a popa por un cabo guía o por el ancla.",
+      "nota": "Se elige cuando el agua junto al muelle es poco profunda, para mantener el timón y la hélice lejos del fondo. En español amarre de punta vale tanto de proa como de popa; véase amarre de punta (por popa). En italiano ormeggio di prua designa también el cabo de proa (véase boza)."
+    },
+    "spring": {
+      "origine": "4f230ca5350e",
+      "definizione": "Cabo de amarre tendido en diagonal entre el barco y el muelle, que impide que el barco se mueva hacia delante y hacia atrás.",
+      "nota": "Se distingue el esprín de proa (garde avant) del de popa (garde arrière). En francés se distinguen también garde montante y descendante según la dirección."
+    },
+    "parabordo": {
+      "origine": "d3534e8cf0ff",
+      "definizione": "Almohadilla blanda colgada del costado que protege el casco de los golpes contra el muelle u otros barcos."
+    },
+    "grillo": {
+      "origine": "ec41e5914d6b",
+      "definizione": "Pieza metálica en forma de U cerrada por un perno roscado, con la que se unen cadenas, cabos y herrajes.",
+      "nota": "En italiano el grillete grande se llama también maniglia, y se llama grillo también el maillon de chaîne, el eslabón de unión de la cadena."
+    },
+    "salpancore": {
+      "origine": "64d77d84c19d",
+      "definizione": "Cabrestante de proa con el que se leva el ancla cobrando la cadena a bordo."
+    },
+    "trappa": {
+      "origine": "faa5cee211f7",
+      "definizione": "Cabo fijado al muelle y a un muerto en el fondo, que se recoge del agua para amarrar la proa o la popa en el amarre de punta.",
+      "nota": "Polisémico: en italiano trappa designa también un cabo para tumbar el barco al carenar o para tensar los toldos. Véase amarre de punta (por popa)."
+    },
+    "barbetta": {
+      "origine": "f89b8af3f4a7",
+      "definizione": "Cabo fijado a proa, que se usa para amarrar el barco o para remolcarlo.",
+      "nota": "El cabo equivalente de popa se llama largo de popa; en italiano barbetta di poppa o codetta, en inglés stern line y en francés pointe arrière. En inglés painter es sobre todo el cabo de proa de un auxiliar."
+    },
+    "gavitello": {
+      "origine": "5a5de4836980",
+      "definizione": "Boya sujeta al fondo con un muerto, a la que se amarra el barco.",
+      "nota": "El muerto del fondo se llama corps-mort en francés y corpo morto en italiano."
+    },
+    "ormeggiarsi-in-andana": {
+      "origine": "007f8dc4d4dc",
+      "definizione": "Amarrarse al costado de otro barco que ya está amarrado.",
+      "nota": "Ambiguo en italiano: andana designa también la manera de amarrar varios buques costado con costado y perpendiculares al muelle, es decir, el amarre de punta en fila; véase amarre de punta (por popa)."
+    },
+    "mollare-gli-ormeggi": {
+      "origine": "53f256d4f1b5",
+      "definizione": "Soltar los cabos de amarre para dejar el muelle o la boya."
+    },
+    "doppino": {
+      "origine": "22896961e671",
+      "definizione": "Cabo de amarre pasado alrededor de una bita o de una argolla con los dos chicotes a bordo, para poder recuperarlo desde el barco en el momento de salir."
+    },
+    "essere-all-ancora": {
+      "origine": "1ecca3459b6e",
+      "definizione": "Permanecer detenido, retenido por el ancla echada al fondo.",
+      "nota": "En español se usa el participio: el barco está fondeado."
+    },
+    "bolina-larga": {
+      "origine": "05254325291f",
+      "definizione": "Rumbo entre la ceñida y el través, con el viento entrando a unos 60-80 grados de la proa.",
+      "nota": "Polisémico en francés: petit largue se usa para este rumbo, pero también para el rumbo justo por detrás del través; véase largo (próximo al través). No tiene esa ambigüedad bon plein, o près bon plein, que designa el rumbo entre el près y el través: se arriban unos grados desde la ceñida estricta para ir más rápido, así que no debe traducirse por ceñida estricta. En español se dice navegar a un descuartelar."
+    },
+    "mettere-la-vela-a-collo": {
+      "origine": "74ce7ddbad45",
+      "definizione": "Mantener o llevar una vela, normalmente el foque, cazada por la banda de barlovento, de modo que reciba el viento por la cara contraria.",
+      "nota": "Se usa para hacer caer la proa en una virada difícil o para ponerse a la capa (véase ponerse a la capa). En inglés una vela acuartelada se dice aback."
+    },
+    "mettersi-alla-cappa": {
+      "origine": "be0de4601cad",
+      "definizione": "Disponer las velas y el timón de modo que el barco quede casi detenido, con el foque acuartelado, para esperar a que pase el mal tiempo o para descansar.",
+      "nota": "Con todas las velas arriadas se dice en cambio essere alla cappa secca en italiano, être à la cape sèche en francés y lie ahull en inglés. En español existe también pairar, quedarse detenido con las velas desplegadas y las escotas sueltas. Véase también acuartelar."
+    },
+    "prua-al-vento": {
+      "origine": "fe476f16dcd1",
+      "definizione": "Posición del barco con la proa orientada exactamente hacia el viento, en la que las velas flamean y el barco se detiene.",
+      "nota": "El barco pasa por ella en cada virada. Si se queda parado sin conseguir completar la virada, en inglés se dice in irons. Véase también virada."
+    },
+    "alla-deriva": {
+      "origine": "6240ef6ac7a2",
+      "definizione": "Dicho de un barco que se desplaza arrastrado por el viento y la corriente, sin gobierno, amarre ni ancla.",
+      "nota": "No debe confundirse con la deriva como desplazamiento lateral del barco que navega (véase abatimiento). El italiano deriva designa además la orza (véase orza)."
+    },
+    "vela-grassa": {
+      "origine": "4bd0461d166a",
+      "definizione": "Vela regulada o cortada con mucha bolsa, es decir, muy cóncava, que da potencia con viento flojo o con mar formada.",
+      "nota": "Lo contrario es la vela plana."
+    },
+    "canale": {
+      "origine": "7f2286e1bbd8",
+      "definizione": "Paso navegable, a menudo balizado con boyas, para entrar en un puerto o atravesar una zona de poco fondo.",
+      "nota": "En español, en italiano y en inglés, canal, canale y channel designan también el canal de radio VHF."
+    },
+    "secca": {
+      "origine": "d43f29584cde",
+      "definizione": "Zona de mar con poco fondo, peligrosa para la navegación."
+    },
+    "rotta-di-fondo": {
+      "origine": "8eb10d2d3c56",
+      "definizione": "Dirección en la que el barco se desplaza realmente respecto al fondo: resulta de combinar su movimiento respecto al agua, que ya incluye el abatimiento, con el efecto de la corriente.",
+      "nota": "También se dice rumbo efectivo. Se abrevia COG, igual que la velocidad sobre el fondo es SOG. No debe traducirse por rumbo verdadero, que es el rumbo referido al norte verdadero. Véase rumbo de superficie. La diferencia entre la dirección a la que apunta la proa y el rumbo de superficie es el abatimiento (véase abatimiento)."
+    },
+    "rotta-di-superficie": {
+      "origine": "6838c6e40178",
+      "definizione": "Dirección en la que el barco se desplaza respecto al agua que lo rodea: incluye el abatimiento, pero no el efecto de la corriente.",
+      "nota": "Véase rumbo de fondo."
+    },
+    "annuario-delle-maree": {
+      "origine": "f9efeaf724d0",
+      "definizione": "Publicación con las horas y las alturas de la pleamar y la bajamar en los puertos de una zona."
+    },
+    "marcia-avanti": {
+      "origine": "b6f2ba8367be",
+      "definizione": "Posición del inversor del motor en la que la hélice empuja el barco hacia delante.",
+      "nota": "Véanse marcha atrás y punto muerto."
+    },
+    "marcia-indietro": {
+      "origine": "14eaecd526ad",
+      "definizione": "Posición del inversor del motor en la que la hélice empuja el barco hacia atrás.",
+      "nota": "En marcha atrás la hélice suele desviar la popa hacia una banda (efecto evolutivo de la hélice), con más o menos fuerza según la hélice y el barco."
+    },
+    "folle": {
+      "origine": "107258630305",
+      "definizione": "Posición del inversor en la que el motor gira pero la hélice no empuja."
+    },
+    "rotta": {
+      "origine": "eb012c31b7c7",
+      "titolo": "rumbo (derrota)",
+      "definizione": "Dirección, o recorrido, que el barco sigue o pretende seguir, expresada en grados respecto al norte.",
+      "nota": "No debe confundirse con la dirección a la que apunta la proa; véase rumbo (orientación de la proa). Con corriente y abatimiento las dos difieren (véanse rumbo de fondo y rumbo de superficie). En español rumbo designa tanto el course como el heading ingleses. Derrota designa sobre todo el recorrido trazado en la carta."
+    },
+    "prora": {
+      "origine": "4836ab5f7dcf",
+      "titolo": "rumbo (orientación de la proa)",
+      "definizione": "Dirección a la que apunta la proa, expresada como el ángulo entre el eje del barco y el norte.",
+      "nota": "Solo coincide con la derrota si no hay corriente ni abatimiento; véase rumbo (derrota). En español rumbo, el ángulo entre la proa y el meridiano, designa tanto la prora como la rotta italianas; se precisa rumbo verdadero, magnético o de aguja según el norte de referencia. En italiano prora es también un sinónimo literario de prua, la proa (véase proa)."
+    },
+    "sartiame": {
+      "origine": "86111a0ed1c7",
+      "definizione": "Conjunto de cables fijos, como obenques, estays y backestay, que sostienen el mástil y permanecen en tensión durante la navegación.",
+      "nota": "En sentido estricto el italiano sartiame es el conjunto de los obenques (sartie), pero en el uso abarca toda la jarcia firme, estays incluidos. Lo contrario es la jarcia de labor (véase jarcia de labor). En francés manœuvre dormante es un sinónimo raro."
+    },
+    "tuga": {
+      "origine": "8846dc08dff7",
+      "definizione": "Superestructura que se eleva sobre la cubierta, más estrecha que el casco, y cubre parte del espacio bajo cubierta.",
+      "nota": "En español se dice también carroza, y en los veleros ingleses a menudo coachroof. No debe confundirse con el tambucho, en italiano tambuccio, que es el pequeño resguardo sobre el acceso al interior. El inglés roof designa solo el techo."
+    },
+    "svergolamento": {
+      "origine": "b1cd74be2670",
+      "definizione": "Apertura progresiva de la baluma hacia arriba: la parte alta de la vela trabaja con un ángulo más abierto respecto al viento que la parte baja. Se regula con la escota, la contra y el carro.",
+      "nota": "En las velerías españolas se usa el inglés twist. Polisémico en francés: dévers designa también la flexión hacia popa del estay bajo carga (dévers d'étai), que no es un twist de la vela. También el italiano svergolamento tiene otros sentidos técnicos, como la deformación permanente del casco."
+    },
+    "flusso-laminare": {
+      "origine": "aa42865ad6ea",
+      "definizione": "Régimen de circulación del aire en el que este se mueve de forma ordenada, en capas paralelas que apenas se mezclan entre sí.",
+      "nota": "En la enseñanza de la vela se usa a menudo, de forma aproximada, para el flujo que se mantiene adherido a la vela y produce sustentación, el que indican los catavientos cuando vuelan rectos. En rigor son cosas distintas: un flujo turbulento también puede seguir adherido, y los catavientos muestran si el flujo está adherido o desprendido, no si es laminar o turbulento. Lo contrario del flujo laminar es el flujo turbulento (véase catavientos)."
+    },
+    "issare": {
+      "origine": "83892d44c0d2",
+      "definizione": "Subir una vela, una bandera u otro objeto tirando del cabo que lo sostiene, normalmente la driza.",
+      "nota": "Lo contrario es arriar (véase arriar). En inglés hoist, como sustantivo, puede designar también un aparato de elevación o la altura de una bandera o de una vela."
+    },
+    "istruttore": {
+      "origine": "a313cc4ac3f4",
+      "definizione": "Persona que enseña a navegar a vela en una escuela o en un curso, acompañando a los alumnos en tierra y en el agua.",
+      "nota": "No es lo mismo que el entrenador, que prepara a los regatistas para la competición. El francés moniteur y el español monitor se traducen al inglés por instructor, no por monitor. En España, en los trámites de los títulos náuticos, se dice también instructor."
+    },
+    "bozzello": {
+      "origine": "f552d81e7924",
+      "definizione": "Dispositivo formado por una o varias roldanas alojadas en una caja, por el que corre un cabo para cambiar su dirección o, combinado con otros en un aparejo, para reducir el esfuerzo.",
+      "nota": "El bozzello italiano es el dispositivo entero, y la puleggia es solo la rueda que gira dentro (roldana; en inglés sheave, en francés réa). El español polea, el término más común a bordo, y el francés poulie pueden designar tanto el dispositivo como la rueda sola, mientras que motón, más técnico, designa solo el dispositivo entero. En español cuadernal es el motón de dos o tres roldanas. El inglés block tiene muchos otros sentidos, también a bordo y en el amarre, donde puede ser el bloque de un muerto."
+    },
+    "regata": {
+      "origine": "30ad9cb829df",
+      "definizione": "Competición entre barcos en un recorrido establecido. Puede designar la prueba individual o todo el evento.",
+      "nota": "La prueba individual es prueba o manga en español, race en inglés y course en francés. El anuncio de regata es notice of race en inglés, avis de course en francés y bando en italiano. Atención: el inglés course es el rumbo que sigue el barco, y race puede designar también una fuerte corriente de marea. Véase rumbo (derrota)."
+    }
+  }
+}

@@ -27,14 +27,18 @@ Questo repository è Velisario, un adattamento in spagnolo di Veliglotta (https:
 - I testi dell'interfaccia stanno in `testi.js`: ogni testo nuovo va aggiunto sia in `TESTI.es` sia in `TESTI.it`, mai scritto direttamente in `app.js` o `index.html`.
 - L'attribuzione a Veliglotta e al suo autore (piè di pagina, `README.md`, `LICENSE`, `LICENSE-DATA.md`) non va mai tolta. Quando cambia ciò che Velisario modifica rispetto all'originale, aggiorna la frase "Cambios respecto al original" in `testi.js`, `index.html` e `LICENSE-DATA.md`.
 - Per restare allineati con `upstream`, non modificare il testo italiano di `data/voci.json`.
+- Definizioni e note in spagnolo stanno in `data/voci-es.json`, per id. Non sono una traduzione letterale: sono scritte per un lettore spagnolo, quindi i falsi amici si spiegano dal suo punto di vista (per esempio l'italiano orza o deriva), i rimandi usano il termine spagnolo preferito ("véase escota") e i termini italiani si presentano come tali ("en italiano…"). Valgono le stesse regole delle note italiane.
+- Quando il primo termine spagnolo è uguale in più voci, ognuna ha in `voci-es.json` un `titolo`: un termine spagnolo della voce, con un qualificatore tra parentesi se serve. I rimandi usano quel titolo e stanno fuori dalle parentesi («…; véase través (rumbo).»). `valida_es.py` segnala titoli uguali e rimandi che non corrispondono a nessun titolo.
+- Ogni traduzione porta l'impronta del testo italiano da cui viene. Dopo un aggiornamento da `upstream`, o quando si aggiunge una voce, esegui `python3 scripts/valida_es.py`: segnala le voci senza traduzione e quelle il cui testo italiano è cambiato. Scrivi o rivedi la traduzione, poi `python3 scripts/valida_es.py --firma ID`.
 
 ## Controlli prima di ogni commit
 
 ```
 python3 scripts/valida.py
+python3 scripts/valida_es.py
 ```
 
-Deve terminare senza errori. Lo stesso controllo gira su GitHub a ogni push che tocca `data/` o `scripts/`, ma non blocca la pubblicazione di Pages: un errore va corretto subito.
+Devono terminare senza errori. Lo stesso controllo gira su GitHub a ogni push che tocca `data/` o `scripts/`, ma non blocca la pubblicazione di Pages: un errore va corretto subito.
 
 Se si aggiunge o si rimuove un file elencato in `SHELL` dentro `sw.js`, incrementare la costante `CACHE`.
 

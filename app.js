@@ -86,6 +86,8 @@ let statistica = null;
 let indice = [];
 let voci = [];
 let catalogo = new Map();
+/* Definizioni e note in spagnolo per id, da data/voci-es.json. */
+let traduzioni = {};
 
 const el = {
   q: document.getElementById("q"),
@@ -138,6 +140,8 @@ function costruisciIndice() {
 }
 
 function titolo(voce) {
+  const tradotta = ui === "es" && traduzioni[voce.id];
+  if (tradotta && tradotta.titolo) return tradotta.titolo;
   const preferita = voce[LINGUA_TITOLO[ui]];
   const t = (preferita && preferita[0]) || (voce.ita && voce.ita[0]) || (voce.eng && voce.eng[0]);
   return t ? t.t : voce.id;
@@ -246,10 +250,12 @@ function scheda(voce, q) {
   }
   art.append(griglia);
 
+  const tradotta = ui === "es" && traduzioni[voce.id];
   for (const campo of ["definizione", "nota"]) {
-    if (!voce[campo]) continue;
-    const n = nodo("p", campo, voce[campo]);
-    n.lang = "it";
+    const testo = tradotta ? tradotta[campo] : voce[campo];
+    if (!testo) continue;
+    const n = nodo("p", campo, testo);
+    n.lang = tradotta ? "es" : "it";
     art.append(n);
   }
 
@@ -555,6 +561,10 @@ async function avvia() {
   el.categoria.value = stato.categoria;
   aggiornaChip();
 
+  const spagnolo = fetch("data/voci-es.json")
+    .then((r) => (r.ok ? r.json() : { voci: {} }))
+    .catch(() => ({ voci: {} }));
+
   const fonti = fetch("data/fonti.json")
     .then((r) => (r.ok ? r.json() : { fonti: [] }))
     .catch(() => ({ fonti: [] }));
@@ -570,6 +580,7 @@ async function avvia() {
   }
 
   /* Senza catalogo le schede mostrano comunque le sigle, senza ordine per peso. */
+  traduzioni = (await spagnolo).voci || {};
   catalogo = new Map((await fonti).fonti.map((c, indice) => [c.sigla, { ...c, indice }]));
   disegnaElencoFonti();
 
