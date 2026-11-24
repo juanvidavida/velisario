@@ -13,6 +13,7 @@
 </head>
 <body>
   <header class="testata">
+    <button id="installa" class="chip installa" type="button" data-t="installa" hidden>Instalar app</button>
     <div class="gruppo interfaccia" role="group" id="lingua-interfaccia" data-t-aria-label="linguaInterfaccia" aria-label="Idioma de la interfaz"></div>
     <h1>Velisario</h1>
     <p class="sottotitolo" data-t="sottotitolo">Diccionario de vela en inglés, español, francés e italiano</p>
@@ -46,6 +47,11 @@
       </details>
     </section>
   </main>
+
+  <dialog id="istruzioni-ios" class="istruzioni">
+    <p data-t="istruzioniIos">Para instalar Velisario, toca el botón Compartir de Safari (el cuadrado con una flecha hacia arriba) y elige «Añadir a pantalla de inicio».</p>
+    <form method="dialog"><button class="chip" data-t="chiudi">Entendido</button></form>
+  </dialog>
 
   <footer class="piede">
     <p id="statistiche"></p>

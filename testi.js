@@ -17,6 +17,10 @@ const TESTI = {
     descrizione: "Diccionario de términos de vela en inglés, español, francés e italiano, con búsqueda y uso sin conexión.",
     sottotitolo: "Diccionario de vela en inglés, español, francés e italiano",
     linguaInterfaccia: "Idioma de la interfaz",
+    installa: "Instalar app",
+    istruzioniIos:
+      "Para instalar Velisario, toca el botón Compartir de Safari (el cuadrado con una flecha hacia arriba) y elige «Añadir a pantalla de inicio».",
+    chiudi: "Entendido",
     controlli: "Búsqueda y filtros",
     cercaEtichetta: "Buscar un término",
     cercaSegnaposto: "Busca un término en cualquier idioma",
@@ -70,6 +74,10 @@ const TESTI = {
     descrizione: "Dizionario di termini velici in inglese, spagnolo, francese e italiano, con ricerca e uso offline.",
     sottotitolo: "Dizionario velico in inglese, spagnolo, francese e italiano",
     linguaInterfaccia: "Lingua dell'interfaccia",
+    installa: "Installa app",
+    istruzioniIos:
+      "Per installare Velisario, tocca il pulsante Condividi di Safari (il quadrato con la freccia verso l'alto) e scegli «Aggiungi alla schermata Home».",
+    chiudi: "Ho capito",
     controlli: "Ricerca e filtri",
     cercaEtichetta: "Cerca un termine",
     cercaSegnaposto: "Cerca un termine in qualsiasi lingua",

@@ -604,6 +604,39 @@ window.addEventListener("hashchange", () => {
   disegna();
 });
 
+/* Pulsante "Instalar app": apre la richiesta del browser dove esiste (Chrome, Edge),
+   mostra le istruzioni su iPhone e iPad, resta nascosto se l'app è già installata. */
+const installata =
+  window.matchMedia("(display-mode: standalone)").matches || navigator.standalone === true;
+const ios =
+  /iPhone|iPad|iPod/.test(navigator.platform) ||
+  (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+const pulsanteInstalla = document.getElementById("installa");
+let richiesta = null;
+
+if (!installata) {
+  window.addEventListener("beforeinstallprompt", (e) => {
+    e.preventDefault();
+    richiesta = e;
+    pulsanteInstalla.hidden = false;
+  });
+  if (ios) pulsanteInstalla.hidden = false;
+}
+window.addEventListener("appinstalled", () => {
+  richiesta = null;
+  pulsanteInstalla.hidden = true;
+});
+pulsanteInstalla.addEventListener("click", async () => {
+  if (richiesta) {
+    richiesta.prompt();
+    const { outcome } = await richiesta.userChoice;
+    if (outcome === "accepted") pulsanteInstalla.hidden = true;
+    richiesta = null;
+  } else if (ios) {
+    document.getElementById("istruzioni-ios").showModal();
+  }
+});
+
 if ("serviceWorker" in navigator && location.protocol.startsWith("http")) {
   navigator.serviceWorker.register("sw.js").catch(() => {});
 }

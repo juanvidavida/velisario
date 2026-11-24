@@ -66,7 +66,7 @@ body {
   gap: 0.25rem;
 }
 
-.interfaccia .chip {
+.testata .chip {
   font-size: 0.75rem;
   padding: 0.15rem 0.5rem;
   color: #ffffff;
@@ -74,13 +74,34 @@ body {
   border-color: rgba(255, 255, 255, 0.5);
 }
 
-.interfaccia .chip[aria-pressed="true"] {
+.testata .chip[aria-pressed="true"] {
   color: #14284b;
   background: #ffffff;
   border-color: #ffffff;
 }
 
-.interfaccia .chip:focus-visible { outline-color: #ffffff; }
+.testata .chip:focus-visible { outline-color: #ffffff; }
+
+.installa {
+  position: absolute;
+  top: 0.6rem;
+  left: 0.75rem;
+}
+
+.istruzioni {
+  max-width: 22rem;
+  padding: 1.25rem;
+  color: var(--testo);
+  background: var(--carta);
+  border: 1px solid var(--bordo);
+  border-radius: 0.75rem;
+}
+
+.istruzioni::backdrop { background: rgba(0, 0, 0, 0.45); }
+
+.istruzioni p { margin: 0 0 1rem; }
+
+.istruzioni form { text-align: right; }
 
 .sottotitolo {
   margin: 0.25rem 0 0;
@@ -325,5 +346,7 @@ span.sigla { cursor: help; }
 .piede a { color: var(--accento); }
 
 @media (max-width: 30rem) {
+  /* I pulsanti della testata stanno sopra il titolo, che altrimenti li tocca. */
+  .testata { padding-top: 2.75rem; }
   select { margin-left: 0; width: 100%; }
 }
