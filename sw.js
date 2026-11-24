@@ -3,11 +3,12 @@
 /* Cambiare CACHE solo se cambia l'elenco dei file di SHELL.
    I contenuti si aggiornano da soli: ogni risorsa viene servita dalla cache
    e rinfrescata in background, quindi una modifica appare alla visita successiva. */
-const CACHE = "veliglotta-v2";
+const CACHE = "velisario-v3";
 const SHELL = [
   "./",
   "index.html",
   "style.css",
+  "testi.js",
   "app.js",
   "data/voci.json",
   "data/fonti.json",

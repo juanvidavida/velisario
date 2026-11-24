@@ -17,8 +17,16 @@ Dizionario velico multilingue (ENG, ESP, FRA, ITA), sito statico pubblicato con 
 - L'affidabilità di una voce è data solo dal punteggio di verifica (vedi `README.md`): non c'è un campo `stato`. Un sinonimo senza fonte o di bassa confidenza non va tra i termini, perché il punteggio conta qualsiasi termine della lingua: toglilo, oppure citalo nella nota.
 - Definizioni e note sono scritte da zero, mai copiate dalle fonti.
 - Segnala sempre nelle note i termini polisemici e i falsi amici.
-- Non cambiare mai un `id` esistente. Una nuova categoria va aggiunta in `app.js` (costante `CATEGORIE`) e in `scripts/valida.py`.
+- Non cambiare mai un `id` esistente. Una nuova categoria va aggiunta in `app.js` (costante `CATEGORIE`), in `scripts/valida.py` e, con il nome spagnolo, in `testi.js`.
 - Per una voce nuova si usa `scripts/prepara.py` con la skill `/rivedi`, come descritto nella sezione "Script" del README. L'inserimento con `prepara.py aggiungi` spetta all'utente. Le schede stanno in `schede/`, che non è pubblicata.
+
+## Velisario
+
+Questo repository è Velisario, un adattamento in spagnolo di Veliglotta (https://github.com/gissimo/veliglotta, di Giorgio Stampa), collegato come remoto `upstream`. Il lettore di riferimento è di madrelingua spagnola, con lo spagnolo di Spagna.
+
+- I testi dell'interfaccia stanno in `testi.js`: ogni testo nuovo va aggiunto sia in `TESTI.es` sia in `TESTI.it`, mai scritto direttamente in `app.js` o `index.html`.
+- L'attribuzione a Veliglotta e al suo autore (piè di pagina, `README.md`, `LICENSE`, `LICENSE-DATA.md`) non va mai tolta. Quando cambia ciò che Velisario modifica rispetto all'originale, aggiorna la frase "Cambios respecto al original" in `testi.js`, `index.html` e `LICENSE-DATA.md`.
+- Per restare allineati con `upstream`, non modificare il testo italiano di `data/voci.json`.
 
 ## Controlli prima di ogni commit
 

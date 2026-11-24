@@ -1,3 +1,11 @@
+# Licencia de los datos de Velisario
+
+Velisario es una obra derivada de [Veliglotta](https://github.com/gissimo/veliglotta), de Giorgio Stampa (gissimo), y se distribuye con la misma licencia: **Creative Commons Atribución-CompartirIgual 4.0 Internacional (CC BY-SA 4.0)**, https://creativecommons.org/licenses/by-sa/4.0/deed.es
+
+Cambios respecto al original: interfaz en español. Los términos, las fuentes y las definiciones y notas de `data/voci.json` son los de Veliglotta.
+
+A continuación, el aviso de licencia original.
+
 # Licenza dei dati
 
 I contenuti della cartella `data/` (termini, traduzioni, definizioni, note) sono rilasciati con licenza **Creative Commons Attribuzione, Condividi allo stesso modo 4.0 Internazionale (CC BY-SA 4.0)**.

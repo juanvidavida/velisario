@@ -48,7 +48,41 @@ const LIVELLI = [
   "una fonte autorevole e un secondo riscontro",
 ];
 
+const LINGUA_HTML = { eng: "en", esp: "es", fra: "fr", ita: "it" };
+
+/* Lingua dell'interfaccia, con i testi in testi.js, e lingua dei termini usati
+   come titolo delle schede. */
+const LINGUA_TITOLO = { es: "esp", it: "ita" };
+const CHIAVE_INTERFACCIA = "velisario-interfaccia";
+let ui = leggiInterfaccia();
+
+function leggiInterfaccia() {
+  try {
+    const v = localStorage.getItem(CHIAVE_INTERFACCIA);
+    if (v && TESTI[v]) return v;
+  } catch {}
+  return Object.keys(TESTI)[0];
+}
+
+function T() {
+  return TESTI[ui];
+}
+
+function nomeLingua(codice) {
+  return (T().lingue && T().lingue[codice]) || LINGUE.find((l) => l.codice === codice).nome;
+}
+
+function nomeCategoria(k) {
+  return (T().categorie && T().categorie[k]) || CATEGORIE[k] || k;
+}
+
+function livello(n) {
+  return (T().livelli || LIVELLI)[n];
+}
+
 const stato = { q: "", lingua: "tutte", categoria: "tutte" };
+let errore = null;
+let statistica = null;
 let indice = [];
 let voci = [];
 let catalogo = new Map();
@@ -65,6 +99,8 @@ const el = {
   statistiche: document.getElementById("statistiche"),
   sezioneFonti: document.getElementById("fonti"),
   elencoFonti: document.getElementById("elenco-fonti"),
+  crediti: document.getElementById("crediti"),
+  interfaccia: document.getElementById("lingua-interfaccia"),
 };
 
 /* Normalizzazione: minuscolo, senza accenti, trattini e apostrofi come spazi.
@@ -102,7 +138,8 @@ function costruisciIndice() {
 }
 
 function titolo(voce) {
-  const t = (voce.ita && voce.ita[0]) || (voce.eng && voce.eng[0]);
+  const preferita = voce[LINGUA_TITOLO[ui]];
+  const t = (preferita && preferita[0]) || (voce.ita && voce.ita[0]) || (voce.eng && voce.eng[0]);
   return t ? t.t : voce.id;
 }
 
@@ -134,10 +171,10 @@ function cerca() {
       const p = punteggio(v, q);
       if (p !== Infinity) con.push({ v, p });
     }
-    con.sort((a, b) => a.p - b.p || titolo(a.v).localeCompare(titolo(b.v), "it"));
+    con.sort((a, b) => a.p - b.p || titolo(a.v).localeCompare(titolo(b.v), ui));
     return con.map((x) => x.v);
   }
-  return lista.sort((a, b) => titolo(a).localeCompare(titolo(b), "it"));
+  return lista.sort((a, b) => titolo(a).localeCompare(titolo(b), ui));
 }
 
 /* Costruisce un nodo con le corrispondenze di q evidenziate. */
@@ -176,7 +213,7 @@ function scheda(voce, q) {
   const testa = nodo("div", "scheda-testa");
   testa.append(nodo("h2", "scheda-titolo", titolo(voce)));
   const meta = nodo("div", "scheda-meta");
-  meta.append(nodo("span", "categoria", CATEGORIE[voce.categoria] || voce.categoria));
+  meta.append(nodo("span", "categoria", nomeCategoria(voce.categoria)));
   testa.append(meta);
   art.append(testa);
 
@@ -185,16 +222,17 @@ function scheda(voce, q) {
   for (const l of LINGUE) {
     const blocco = nodo("div", "lingua");
     const etichetta = nodo("span", "lingua-etichetta", l.codice.toUpperCase());
-    etichetta.title = l.nome;
+    etichetta.title = nomeLingua(l.codice);
     if (catalogo.size) {
       const n = lv[l.codice];
       const p = nodo("span", "livello", "●".repeat(n) + "○".repeat(3 - n));
-      p.title = `${l.nome}: ${LIVELLI[n]}`;
+      p.title = `${nomeLingua(l.codice)}: ${livello(n)}`;
       p.setAttribute("aria-label", p.title);
       etichetta.append(" ", p);
     }
     blocco.append(etichetta);
     const ul = nodo("ul", "termini");
+    ul.lang = LINGUA_HTML[l.codice];
     for (const t of voce[l.codice] || []) {
       const li = nodo("li");
       const sp = nodo("span", "termine");
@@ -208,11 +246,15 @@ function scheda(voce, q) {
   }
   art.append(griglia);
 
-  if (voce.definizione) art.append(nodo("p", "definizione", voce.definizione));
-  if (voce.nota) art.append(nodo("p", "nota", voce.nota));
+  for (const campo of ["definizione", "nota"]) {
+    if (!voce[campo]) continue;
+    const n = nodo("p", campo, voce[campo]);
+    n.lang = "it";
+    art.append(n);
+  }
 
   if (voce.fonti && voce.fonti.length) {
-    const p = nodo("p", "fonti", "Fonti: ");
+    const p = nodo("p", "fonti", T().fontiScheda);
     gruppiFonti(voce.fonti).forEach((g, i) => {
       if (i) p.append(" · ");
       const c = catalogo.get(g.sigla) || {};
@@ -330,7 +372,7 @@ function link(testo, url) {
 }
 
 function disegnaElencoFonti() {
-  const voci = [...catalogo.values()].sort((a, b) => a.sigla.localeCompare(b.sigla, "it"));
+  const voci = [...catalogo.values()].sort((a, b) => a.sigla.localeCompare(b.sigla, ui));
   el.elencoFonti.replaceChildren(
     ...voci.flatMap((c) => {
       const dt = nodo("dt", null, c.sigla);
@@ -359,10 +401,7 @@ function disegna() {
   const q = fold(stato.q.trim()).str;
   el.risultati.replaceChildren(...trovate.map((v) => scheda(v, q)));
   el.vuoto.hidden = trovate.length !== 0;
-  el.conteggio.textContent =
-    trovate.length === voci.length
-      ? `${voci.length} termini`
-      : `${trovate.length} di ${voci.length} termini`;
+  el.conteggio.textContent = T().conteggio(trovate.length, voci.length);
   aggiornaUrl();
 }
 
@@ -387,10 +426,9 @@ function leggiUrl() {
 function costruisciControlli() {
   const opzioni = [{ codice: "tutte", nome: "Tutte" }, ...LINGUE];
   for (const o of opzioni) {
-    const b = nodo("button", "chip", o.codice === "tutte" ? "Tutte" : o.codice.toUpperCase());
+    const b = nodo("button", "chip");
     b.type = "button";
     b.dataset.lingua = o.codice;
-    b.title = o.nome;
     b.addEventListener("click", () => {
       stato.lingua = o.codice;
       aggiornaChip();
@@ -399,15 +437,23 @@ function costruisciControlli() {
     el.filtroLingua.append(b);
   }
 
-  const tutte = nodo("option", null, "Tutte le categorie");
-  tutte.value = "tutte";
-  el.categoria.append(tutte);
-  const perNome = Object.entries(CATEGORIE).sort((a, b) => a[1].localeCompare(b[1], "it"));
-  for (const [k, nome] of perNome) {
-    const o = nodo("option", null, nome);
-    o.value = k;
-    el.categoria.append(o);
+  for (const codice of Object.keys(TESTI)) {
+    const b = nodo("button", "chip", codice.toUpperCase());
+    b.type = "button";
+    b.dataset.ui = codice;
+    b.lang = codice;
+    b.title = TESTI[codice].nome;
+    b.addEventListener("click", () => {
+      ui = codice;
+      try {
+        localStorage.setItem(CHIAVE_INTERFACCIA, codice);
+      } catch {}
+      applicaTesti();
+      if (voci.length) disegna();
+    });
+    el.interfaccia.append(b);
   }
+
   el.categoria.addEventListener("change", () => {
     stato.categoria = el.categoria.value;
     disegna();
@@ -435,20 +481,76 @@ function costruisciControlli() {
   });
 }
 
+function opzioniCategorie() {
+  const tutte = nodo("option", null, T().tutteCategorie);
+  tutte.value = "tutte";
+  const perNome = Object.keys(CATEGORIE)
+    .map((k) => [k, nomeCategoria(k)])
+    .sort((a, b) => a[1].localeCompare(b[1], ui));
+  el.categoria.replaceChildren(
+    tutte,
+    ...perNome.map(([k, nome]) => {
+      const o = nodo("option", null, nome);
+      o.value = k;
+      return o;
+    })
+  );
+  el.categoria.value = stato.categoria;
+}
+
+/* Scrive nella lingua dell'interfaccia tutti i testi fuori dalle schede. */
+function applicaTesti() {
+  const t = T();
+  document.documentElement.lang = ui;
+  document.title = t.titoloPagina;
+  document.querySelector('meta[name="description"]').content = t.descrizione;
+  for (const n of document.querySelectorAll("[data-t]")) n.textContent = t[n.dataset.t];
+  for (const n of document.querySelectorAll("[data-t-aria-label]")) {
+    n.setAttribute("aria-label", t[n.dataset.tAriaLabel]);
+  }
+  for (const n of document.querySelectorAll("[data-t-placeholder]")) {
+    n.placeholder = t[n.dataset.tPlaceholder];
+  }
+  for (const b of el.filtroLingua.children) {
+    const c = b.dataset.lingua;
+    b.textContent = c === "tutte" ? t.tutte : c.toUpperCase();
+    b.title = c === "tutte" ? t.tutte : nomeLingua(c);
+  }
+  for (const b of el.interfaccia.children) {
+    b.setAttribute("aria-pressed", String(b.dataset.ui === ui));
+  }
+  opzioniCategorie();
+  el.crediti.replaceChildren(
+    ...t.piede.map((pezzo) => {
+      if (typeof pezzo === "string") return pezzo;
+      if (pezzo[0] === "ORIGINALE") return link(ORIGINALE.nome, ORIGINALE.url);
+      return link(pezzo[0], pezzo[1]);
+    })
+  );
+  if (errore) el.errore.textContent = t[errore];
+  disegnaStatistiche();
+}
+
+function disegnaStatistiche() {
+  if (statistica) el.statistiche.textContent = T().statistiche(statistica.tot, statistica.complete);
+}
+
 function aggiornaChip() {
   for (const b of el.filtroLingua.children) {
     b.setAttribute("aria-pressed", String(b.dataset.lingua === stato.lingua));
   }
 }
 
-function mostraErrore(msg) {
-  el.errore.textContent = msg;
+function mostraErrore(chiave) {
+  errore = chiave;
+  el.errore.textContent = T()[chiave];
   el.errore.hidden = false;
 }
 
 async function avvia() {
   costruisciControlli();
   leggiUrl();
+  applicaTesti();
   el.q.value = stato.q;
   el.categoria.value = stato.categoria;
   aggiornaChip();
@@ -463,11 +565,7 @@ async function avvia() {
     const dati = await risposta.json();
     voci = dati.voci;
   } catch (e) {
-    mostraErrore(
-      location.protocol === "file:"
-        ? "Il dizionario non si carica aprendo il file direttamente. Servilo con un server locale, per esempio con: python3 -m http.server"
-        : "Impossibile caricare i dati. Controlla la connessione e riprova."
-    );
+    mostraErrore(location.protocol === "file:" ? "erroreFile" : "erroreRete");
     return;
   }
 
@@ -478,10 +576,11 @@ async function avvia() {
   costruisciIndice();
   if (catalogo.size) {
     const complete = voci.filter((v) => Object.values(livelli(v)).every((n) => n === 3)).length;
-    el.statistiche.textContent = `${voci.length} termini, ${complete} con tre pallini in tutte le lingue.`;
+    statistica = { tot: voci.length, complete };
   } else {
-    el.statistiche.textContent = `${voci.length} termini.`;
+    statistica = { tot: voci.length };
   }
+  disegnaStatistiche();
   disegna();
 }
 

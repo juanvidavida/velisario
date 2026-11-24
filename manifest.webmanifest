@@ -1,8 +1,8 @@
 {
-  "name": "Veliglotta, dizionario velico multilingue",
-  "short_name": "Veliglotta",
-  "description": "Termini velici in inglese, italiano, francese e spagnolo.",
-  "lang": "it",
+  "name": "Velisario, diccionario náutico de vela",
+  "short_name": "Velisario",
+  "description": "Términos de vela en inglés, español, francés e italiano.",
+  "lang": "es",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",

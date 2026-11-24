@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="es">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Veliglotta, dizionario velico multilingue</title>
-  <meta name="description" content="Dizionario di termini velici in inglese, italiano, francese e spagnolo, con ricerca e uso offline.">
+  <title>Velisario, diccionario náutico de vela</title>
+  <meta name="description" content="Diccionario de términos de vela en inglés, español, francés e italiano, con búsqueda y uso sin conexión.">
   <meta name="theme-color" content="#0b3a5b">
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="icon" href="icon.svg" type="image/svg+xml">
@@ -13,34 +13,35 @@
 </head>
 <body>
   <header class="testata">
-    <h1>Veliglotta</h1>
-    <p class="sottotitolo">Dizionario velico in inglese, italiano, francese e spagnolo</p>
+    <div class="gruppo interfaccia" role="group" id="lingua-interfaccia" data-t-aria-label="linguaInterfaccia" aria-label="Idioma de la interfaz"></div>
+    <h1>Velisario</h1>
+    <p class="sottotitolo" data-t="sottotitolo">Diccionario de vela en inglés, español, francés e italiano</p>
   </header>
 
   <main>
-    <section class="controlli" aria-label="Ricerca e filtri">
-      <label for="q" class="visivamente-nascosto">Cerca un termine</label>
+    <section class="controlli" data-t-aria-label="controlli" aria-label="Búsqueda y filtros">
+      <label for="q" class="visivamente-nascosto" data-t="cercaEtichetta">Buscar un término</label>
       <div class="ricerca">
-        <input id="q" type="search" placeholder="Cerca un termine in qualsiasi lingua" autocomplete="off" autocapitalize="off" spellcheck="false">
-        <button id="pulisci" class="pulisci" type="button" aria-label="Cancella la ricerca" hidden>&times;</button>
+        <input id="q" type="search" data-t-placeholder="cercaSegnaposto" placeholder="Busca un término en cualquier idioma" autocomplete="off" autocapitalize="off" spellcheck="false">
+        <button id="pulisci" class="pulisci" type="button" data-t-aria-label="pulisci" aria-label="Borrar la búsqueda" hidden>&times;</button>
       </div>
 
       <div class="riga-filtri">
-        <div class="gruppo" role="group" aria-label="Lingua in cui cercare" id="filtro-lingua"></div>
-        <label for="categoria" class="visivamente-nascosto">Categoria</label>
+        <div class="gruppo" role="group" data-t-aria-label="linguaRicerca" aria-label="Idioma en el que buscar" id="filtro-lingua"></div>
+        <label for="categoria" class="visivamente-nascosto" data-t="categoria">Categoría</label>
         <select id="categoria"></select>
       </div>
 
       <p id="conteggio" class="conteggio" aria-live="polite"></p>
     </section>
 
-    <section id="risultati" class="risultati" aria-label="Risultati"></section>
-    <p id="vuoto" class="vuoto" hidden>Nessun termine trovato. Prova con meno lettere, oppure cerca in un'altra lingua.</p>
+    <section id="risultati" class="risultati" data-t-aria-label="risultati" aria-label="Resultados"></section>
+    <p id="vuoto" class="vuoto" data-t="vuoto" hidden>No se ha encontrado ningún término. Prueba con menos letras o busca en otro idioma.</p>
     <p id="errore" class="errore" hidden></p>
 
-    <section id="fonti" class="elenco-fonti" aria-label="Fonti" hidden>
+    <section id="fonti" class="elenco-fonti" data-t-aria-label="fonti" aria-label="Fuentes" hidden>
       <details>
-        <summary>Fonti</summary>
+        <summary data-t="fonti">Fuentes</summary>
         <dl id="elenco-fonti"></dl>
       </details>
     </section>
@@ -48,14 +49,17 @@
 
   <footer class="piede">
     <p id="statistiche"></p>
-    <p>
-      Dati rilasciati con licenza
-      <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.it" target="_blank" rel="license noopener">CC BY-SA 4.0</a>.
-      Codice con licenza MIT.
-      <a href="https://github.com/gissimo/veliglotta" target="_blank" rel="noopener">Sorgenti e contributi su GitHub</a>.
+    <p id="crediti">
+      Velisario es una adaptación al español de
+      <a href="https://github.com/gissimo/veliglotta" target="_blank" rel="noopener">Veliglotta</a>, de Giorgio Stampa.
+      Cambios respecto al original: interfaz en español. Datos con licencia
+      <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es" target="_blank" rel="license noopener">CC BY-SA 4.0</a>,
+      código con licencia MIT.
+      <a href="https://github.com/juanvidavida/velisario" target="_blank" rel="noopener">Código fuente y contribuciones en GitHub</a>.
     </p>
   </footer>
 
+  <script src="testi.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
