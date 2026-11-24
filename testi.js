@@ -5,7 +5,7 @@
    italiane di app.js, così le voci di Veliglotta restano allineate. */
 const ORIGINALE = {
   nome: "Veliglotta",
-  autore: "Giorgio Stampa",
+  autore: "Giorgio Stampa (gissimo)",
   url: "https://github.com/gissimo/veliglotta",
 };
 const SORGENTI = "https://github.com/juanvidavida/velisario";
@@ -61,7 +61,7 @@ const TESTI = {
     piede: [
       "Velisario es una adaptación al español de ",
       ["ORIGINALE"],
-      `, de ${ORIGINALE.autore}. Cambios respecto al original: interfaz, definiciones y notas en español. Datos con licencia `,
+      `, de ${ORIGINALE.autore}. Cambios respecto al original: interfaz en español y definiciones y notas traducidas y adaptadas al español, con algunas correcciones. Datos con licencia `,
       ["CC BY-SA 4.0", "https://creativecommons.org/licenses/by-sa/4.0/deed.es"],
       ", código con licencia MIT. ",
       ["Código fuente y contribuciones en GitHub", SORGENTI],
@@ -101,7 +101,7 @@ const TESTI = {
     piede: [
       "Velisario è un adattamento in spagnolo di ",
       ["ORIGINALE"],
-      `, di ${ORIGINALE.autore}. Modifiche rispetto all'originale: interfaccia, definizioni e note in spagnolo. Dati rilasciati con licenza `,
+      `, di ${ORIGINALE.autore}. Modifiche rispetto all'originale: interfaccia in spagnolo e definizioni e note tradotte e adattate in spagnolo, con alcune correzioni. Dati rilasciati con licenza `,
       ["CC BY-SA 4.0", "https://creativecommons.org/licenses/by-sa/4.0/deed.it"],
       ", codice con licenza MIT. ",
       ["Sorgenti e contributi su GitHub", SORGENTI],

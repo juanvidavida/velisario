@@ -2,7 +2,7 @@
 
 Velisario es una obra derivada de [Veliglotta](https://github.com/gissimo/veliglotta), de Giorgio Stampa (gissimo), y se distribuye con la misma licencia: **Creative Commons Atribución-CompartirIgual 4.0 Internacional (CC BY-SA 4.0)**, https://creativecommons.org/licenses/by-sa/4.0/deed.es
 
-Cambios respecto al original: interfaz en español y traducción al español de las definiciones y notas, adaptadas para lectores hispanohablantes, en `data/voci-es.json`. Los términos, las fuentes y los textos en italiano de `data/voci.json` son los de Veliglotta.
+Cambios respecto al original: interfaz en español y traducción al español de las definiciones y notas, adaptadas para lectores hispanohablantes, en `data/voci-es.json`. Esa versión añade títulos que distinguen las fichas con el mismo término español e incluye algunas correcciones técnicas respecto al texto italiano. Los términos, las fuentes y los textos en italiano de `data/voci.json` son los de Veliglotta.
 
 A continuación, el aviso de licencia original.
 

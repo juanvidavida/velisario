@@ -530,7 +530,9 @@ function applicaTesti() {
     ...t.piede.map((pezzo) => {
       if (typeof pezzo === "string") return pezzo;
       if (pezzo[0] === "ORIGINALE") return link(ORIGINALE.nome, ORIGINALE.url);
-      return link(pezzo[0], pezzo[1]);
+      const a = link(pezzo[0], pezzo[1]);
+      if (pezzo[1].includes("creativecommons.org")) a.rel = "license noopener";
+      return a;
     })
   );
   if (errore) el.errore.textContent = t[errore];
