@@ -22,3 +22,5 @@ jobs:
         run: python3 scripts/valida.py
       - name: Valida data/voci-es.json
         run: python3 scripts/valida_es.py
+      - name: Valida data/voci-cat.json
+        run: python3 scripts/valida_cat.py

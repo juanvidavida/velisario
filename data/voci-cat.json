@@ -1,0 +1,2643 @@
+{
+  "schema": 1,
+  "fonti": [
+    {
+      "sigla": "TC-NAU",
+      "pesi": {
+        "cat": "A"
+      }
+    },
+    {
+      "sigla": "TC-AC",
+      "pesi": {
+        "cat": "A"
+      }
+    },
+    {
+      "sigla": "AVL-VN",
+      "titolo": "Acadèmia Valenciana de la Llengua, Vocabulari nàutic, 2a edició (2018)",
+      "url": "https://avl.gva.es/documents/31987/65425/Vocabulari_nautic",
+      "pesi": {
+        "cat": "A"
+      }
+    },
+    {
+      "sigla": "DIEC2",
+      "titolo": "Institut d'Estudis Catalans, Diccionari de la llengua catalana, 2a edició (DIEC2)",
+      "url": "https://dlc.iec.cat/",
+      "pesi": {
+        "cat": "A"
+      }
+    },
+    {
+      "sigla": "TC-LM",
+      "titolo": "TERMCAT i Departament de Cultura, Lèxic mariner, il·lustracions d'Escenavegant (2022)",
+      "url": "https://arxiu.termcat.cat/multimedia/lexic-mariner_1-6.pdf",
+      "pesi": {
+        "cat": "B"
+      }
+    },
+    {
+      "sigla": "FCV-MET",
+      "titolo": "Federació Catalana de Vela, Metodologia d'ensenyament de la vela",
+      "url": "https://sites.google.com/vela.cat/metodologia/",
+      "pesi": {
+        "cat": "B"
+      }
+    },
+    {
+      "sigla": "VIQUI-CA",
+      "titolo": "Viquipèdia, l'enciclopèdia lliure",
+      "url": "https://ca.wikipedia.org/wiki/",
+      "pesi": {
+        "cat": "C"
+      }
+    }
+  ],
+  "voci": {
+    "scafo": {
+      "cat": [
+        {
+          "t": "buc",
+          "g": "m"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "buc",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1NzE0"
+        },
+        {
+          "sigla": "TC-AC",
+          "termini": "buc",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/323/fitxa/NDc3Mzk2Ng"
+        }
+      ]
+    },
+    "chiglia": {
+      "cat": [
+        {
+          "t": "quilla",
+          "g": "f"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "quilla",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1ODQx"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "quilla (cast. quilla)",
+          "url": "#page=161"
+        }
+      ]
+    },
+    "timone": {
+      "cat": [
+        {
+          "t": "timó",
+          "g": "m"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "timó",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1NTM5"
+        },
+        {
+          "sigla": "TC-AC",
+          "termini": "timó",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/323/fitxa/NDg3MTk4Mg"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "timó (cast. timón)",
+          "url": "#page=163"
+        }
+      ]
+    },
+    "barra": {
+      "cat": [
+        {
+          "t": "canya",
+          "g": "f"
+        },
+        {
+          "t": "arjau",
+          "g": "m"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "canya, arjau",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1Mjkz"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "canya (cast. caña)",
+          "url": "#page=149"
+        }
+      ]
+    },
+    "albero": {
+      "cat": [
+        {
+          "t": "pal",
+          "g": "m"
+        },
+        {
+          "t": "arbre",
+          "g": "m"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "pal, arbre",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1MjIx"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "pal, arbre (cast. mástil)",
+          "url": "#page=157"
+        }
+      ]
+    },
+    "boma": {
+      "cat": [
+        {
+          "t": "botavara",
+          "g": "f"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "botavara",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1MTQw"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "botavara (cast. botavara)",
+          "url": "#page=148"
+        }
+      ]
+    },
+    "vela": {
+      "cat": [
+        {
+          "t": "vela",
+          "g": "f"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "vela",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1MTM0"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "vela (cast. vela)",
+          "url": "#page=164"
+        }
+      ]
+    },
+    "randa": {
+      "cat": [
+        {
+          "t": "vela major",
+          "g": "f"
+        },
+        {
+          "t": "vela mestra",
+          "g": "f"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "vela major, vela mestra",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1MTY0"
+        },
+        {
+          "sigla": "TC-AC",
+          "termini": "vela major, vela mestra",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/323/fitxa/NDc3Mzk5MA"
+        }
+      ]
+    },
+    "fiocco": {
+      "cat": [
+        {
+          "t": "floc",
+          "g": "m"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "floc",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1MTM1"
+        },
+        {
+          "sigla": "TC-AC",
+          "termini": "floc",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/323/fitxa/NDc3Mzk3OA"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "floc (cast. foque)",
+          "url": "#page=154"
+        }
+      ]
+    },
+    "scotta": {
+      "cat": [
+        {
+          "t": "escota",
+          "g": "f"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "escota",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1MTQx"
+        },
+        {
+          "sigla": "TC-AC",
+          "termini": "escota",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/323/fitxa/NDc3Mzk3NA"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "escota (cast. escota)",
+          "url": "#page=153"
+        }
+      ]
+    },
+    "drizza": {
+      "cat": [
+        {
+          "t": "drissa",
+          "g": "f"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "drissa",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1MjA0"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "drissa (cast. driza)",
+          "url": "#page=152"
+        }
+      ]
+    },
+    "cima": {
+      "cat": [
+        {
+          "t": "cap",
+          "g": "m"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "cap",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1MjM5"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "cap (cast. cabo)",
+          "url": "#page=149"
+        }
+      ]
+    },
+    "winch": {
+      "cat": [
+        {
+          "t": "gigre",
+          "g": "m"
+        },
+        {
+          "t": "winch",
+          "g": "m"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "gigre",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1NDUy"
+        },
+        {
+          "sigla": "FCV-MET",
+          "termini": "winch",
+          "url": "nivell-mitj%C3%A0/identificaci%C3%B3-parts-de-laparell-l%C3%A8xic"
+        }
+      ]
+    },
+    "galloccia": {
+      "cat": [
+        {
+          "t": "cornamusa",
+          "g": "f"
+        },
+        {
+          "t": "manegueta",
+          "g": "f"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "cornamusa, manegueta",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1OTAz"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "cornamusa (cast. cornamusa)",
+          "url": "#page=150"
+        }
+      ]
+    },
+    "prua": {
+      "cat": [
+        {
+          "t": "proa",
+          "g": "f"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "proa",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1NTQ1"
+        },
+        {
+          "sigla": "TC-AC",
+          "termini": "proa",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/323/fitxa/NDc3Mzk4NA"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "proa (cast. proa)",
+          "url": "#page=160"
+        }
+      ]
+    },
+    "poppa": {
+      "cat": [
+        {
+          "t": "popa",
+          "g": "f"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "popa",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1NTQ0"
+        },
+        {
+          "sigla": "TC-AC",
+          "termini": "popa",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/323/fitxa/NDc3Mzk4Mw"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "popa (cast. popa)",
+          "url": "#page=160"
+        }
+      ]
+    },
+    "bolina": {
+      "cat": [
+        {
+          "t": "cenyida",
+          "g": "f"
+        },
+        {
+          "t": "cenyir",
+          "g": "v"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "cenyida",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1MzAy"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "cenyir (cast. ceñir)",
+          "url": "#page=150"
+        }
+      ]
+    },
+    "virata": {
+      "cat": [
+        {
+          "t": "virada per avant",
+          "g": "f"
+        },
+        {
+          "t": "virar per avant",
+          "g": "v"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "virada per avant",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1NDM0"
+        },
+        {
+          "sigla": "TC-NAU",
+          "termini": "virar per avant",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1MjM1"
+        }
+      ]
+    },
+    "strambata": {
+      "cat": [
+        {
+          "t": "trabujada",
+          "g": "f"
+        },
+        {
+          "t": "trabujar",
+          "g": "v"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "trabujada",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1MjQy"
+        },
+        {
+          "sigla": "TC-NAU",
+          "termini": "trabujar, traslutxar",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1NTc0"
+        }
+      ]
+    },
+    "bussola": {
+      "cat": [
+        {
+          "t": "compàs",
+          "g": "m"
+        },
+        {
+          "t": "agulla nàutica",
+          "g": "f"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "compàs, agulla nàutica",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1MzE0"
+        }
+      ]
+    },
+    "bonaccia": {
+      "cat": [
+        {
+          "t": "calma",
+          "g": "f"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "DIEC2",
+          "termini": "calma (accepció 1.2: mancança de vent)",
+          "url": "Results?DecEntradaText=calma"
+        }
+      ]
+    },
+    "manovre": {
+      "cat": [
+        {
+          "t": "maniobra",
+          "g": "f"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "AVL-VN",
+          "termini": "maniobra (cast. maniobra)",
+          "url": "#page=157"
+        }
+      ]
+    },
+    "navigazione": {
+      "cat": [
+        {
+          "t": "navegació",
+          "g": "f"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "navegació",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1NDEz"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "navegació (cast. navegación)",
+          "url": "#page=158"
+        }
+      ]
+    },
+    "meteo": {
+      "cat": [
+        {
+          "t": "temps",
+          "g": "m"
+        },
+        {
+          "t": "oratge",
+          "g": "m"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "DIEC2",
+          "termini": "temps (estat de l'atmosfera)",
+          "url": "Results?DecEntradaText=temps"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "oratge (cast. tiempo)",
+          "url": "#page=163"
+        },
+        {
+          "sigla": "DIEC2",
+          "termini": "oratge (accepció 2: temps)",
+          "url": "Results?DecEntradaText=oratge"
+        }
+      ]
+    },
+    "deriva": {
+      "cat": [
+        {
+          "t": "orsa",
+          "g": "f"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "orsa",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1MzYz"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "orsa (cast. orza)",
+          "url": "#page=159"
+        }
+      ]
+    },
+    "deriva-basculante": {
+      "cat": [
+        {
+          "t": "orsa abatible",
+          "g": "f"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "orsa abatible, orsa mòbil",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1NDYy"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "orsa abatible (cast. orza abatible)",
+          "url": "#page=159"
+        }
+      ]
+    },
+    "deriva-a-baionetta": {
+      "cat": [
+        {
+          "t": "orsa de sabre",
+          "g": "f"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "orsa de sabre",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1MzY0"
+        }
+      ]
+    },
+    "scarroccio": {
+      "cat": [
+        {
+          "t": "abatiment",
+          "g": "m"
+        },
+        {
+          "t": "caiguda",
+          "g": "f"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "abatiment, caiguda",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1MjU5"
+        }
+      ]
+    },
+    "prodiere": {
+      "cat": [
+        {
+          "t": "proer",
+          "g": "m"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "proer -a",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1MTg5"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "proer -a (cast. proel)",
+          "url": "#page=160"
+        }
+      ]
+    },
+    "timoniere": {
+      "cat": [
+        {
+          "t": "timoner",
+          "g": "m"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "timoner -a",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1MTM5"
+        }
+      ]
+    },
+    "sinistra": {
+      "cat": [
+        {
+          "t": "babord",
+          "g": "m"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "babord",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1NTQy"
+        },
+        {
+          "sigla": "TC-AC",
+          "termini": "babord",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/323/fitxa/NDc3Mzk2Mg"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "babord (cast. babor)",
+          "url": "#page=147"
+        }
+      ]
+    },
+    "dritta": {
+      "cat": [
+        {
+          "t": "estribord",
+          "g": "m"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "estribord",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1NTQz"
+        },
+        {
+          "sigla": "TC-AC",
+          "termini": "estribord",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/323/fitxa/NDc3Mzk3Ng"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "estribord (cast. estribor)",
+          "url": "#page=153"
+        }
+      ]
+    },
+    "lunghezza-fuori-tutto": {
+      "cat": [
+        {
+          "t": "eslora",
+          "g": "f"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-AC",
+          "termini": "eslora",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/323/fitxa/NDgyNjg3Ng"
+        },
+        {
+          "sigla": "TC-NAU",
+          "termini": "eslora",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1MjQ0"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "eslora (cast. eslora)",
+          "url": "#page=153"
+        }
+      ]
+    },
+    "baglio-massimo": {
+      "cat": [
+        {
+          "t": "mànega",
+          "g": "f"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "mànega",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1MzUy"
+        },
+        {
+          "sigla": "TC-AC",
+          "termini": "mànega",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/323/fitxa/NDgyNjk0Mg"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "mànega (cast. manga)",
+          "url": "#page=156"
+        }
+      ]
+    },
+    "pescaggio": {
+      "cat": [
+        {
+          "t": "calat",
+          "g": "m"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "calat",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1Mjg4"
+        }
+      ]
+    },
+    "opera-viva": {
+      "cat": [
+        {
+          "t": "obra viva",
+          "g": "f"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "obra viva",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1MTYz"
+        }
+      ]
+    },
+    "opera-morta": {
+      "cat": [
+        {
+          "t": "obra morta",
+          "g": "f"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "obra morta",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1MzYw"
+        }
+      ]
+    },
+    "linea-di-galleggiamento": {
+      "cat": [
+        {
+          "t": "línia de flotació",
+          "g": "f"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "línia de flotació",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1MDgy"
+        }
+      ]
+    },
+    "elica": {
+      "cat": [
+        {
+          "t": "hèlice",
+          "g": "f"
+        },
+        {
+          "t": "hèlix",
+          "g": "f"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "hèlice, hèlix",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1ODk4"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "hèlice, hèlix (cast. hélice)",
+          "url": "#page=155"
+        }
+      ]
+    },
+    "candeliere": {
+      "cat": [
+        {
+          "t": "candeler",
+          "g": "m"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "candeler",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1Mjkx"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "candeler (cast. candelero)",
+          "url": "#page=149"
+        }
+      ]
+    },
+    "draglia": {
+      "cat": [
+        {
+          "t": "passamà",
+          "g": "m"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "passamà",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1Mzcx"
+        }
+      ]
+    },
+    "boccaporto": {
+      "cat": [
+        {
+          "t": "escotilla",
+          "g": "f"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "escotilla",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1MzMy"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "escotilla (cast. escotilla)",
+          "url": "#page=153"
+        }
+      ]
+    },
+    "carrello-randa": {
+      "cat": [
+        {
+          "t": "escotera",
+          "g": "f"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "VIQUI-CA",
+          "termini": "escotera",
+          "url": "Escotera"
+        }
+      ]
+    },
+    "strallo": {
+      "cat": [
+        {
+          "t": "estai",
+          "g": "m"
+        },
+        {
+          "t": "estai de proa",
+          "g": "m"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "estai",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1MzMz"
+        },
+        {
+          "sigla": "TC-NAU",
+          "termini": "estai de proa",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1MTYx"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "estai, estai de proa (cast. estay, estay de proa)",
+          "url": "#page=153"
+        }
+      ]
+    },
+    "paterazzo": {
+      "cat": [
+        {
+          "t": "estai de popa",
+          "g": "m"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "estai de popa",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1MzM1"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "estai de popa (cast. estay de popa)",
+          "url": "#page=153"
+        }
+      ]
+    },
+    "volante": {
+      "cat": [
+        {
+          "t": "estai volant",
+          "g": "m"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "estai volant",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1MzM2"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "burda volant (cast. burda volante); estai volant (cast. estay volante)",
+          "url": "#page=149"
+        }
+      ]
+    },
+    "sartia": {
+      "cat": [
+        {
+          "t": "obenc",
+          "g": "m"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "obenc",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1MTgy"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "obenc (cast. obenque)",
+          "url": "#page=158"
+        }
+      ]
+    },
+    "crocetta": {
+      "cat": [
+        {
+          "t": "creueta",
+          "g": "f"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "creueta",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1NTg4"
+        }
+      ]
+    },
+    "testa-d-albero": {
+      "cat": [
+        {
+          "t": "topall",
+          "g": "m"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "topall",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1NDE3"
+        }
+      ]
+    },
+    "tangone": {
+      "cat": [
+        {
+          "t": "tangó",
+          "g": "m"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "tangó",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1MjI3"
+        }
+      ]
+    },
+    "genoa": {
+      "cat": [
+        {
+          "t": "gènova",
+          "g": "m"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "gènova",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1NDQ4"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "gènova (cast. génova)",
+          "url": "#page=154"
+        }
+      ]
+    },
+    "tormentina": {
+      "cat": [
+        {
+          "t": "turmentí",
+          "g": "m"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "AVL-VN",
+          "termini": "turmentí (cast. tormentín)",
+          "url": "#page=163"
+        }
+      ]
+    },
+    "spinnaker": {
+      "cat": [
+        {
+          "t": "espinàquer",
+          "g": "m"
+        },
+        {
+          "t": "espí",
+          "g": "m"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "espinàquer, espí",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1NTY3"
+        }
+      ]
+    },
+    "inferitura": {
+      "cat": [
+        {
+          "t": "gràtil",
+          "g": "m"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "gràtil",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1MTQ5"
+        },
+        {
+          "sigla": "TC-AC",
+          "termini": "gràtil",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/323/fitxa/NDc3Mzk3OQ"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "gràtil (cast. grátil)",
+          "url": "#page=154"
+        }
+      ]
+    },
+    "balumina": {
+      "cat": [
+        {
+          "t": "baluma",
+          "g": "f"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "baluma",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1MTM2"
+        },
+        {
+          "sigla": "TC-AC",
+          "termini": "baluma",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/323/fitxa/NDc3Mzk2Mw"
+        }
+      ]
+    },
+    "base": {
+      "cat": [
+        {
+          "t": "pujament",
+          "g": "m"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "pujament",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1NTk4"
+        },
+        {
+          "sigla": "TC-AC",
+          "termini": "pujament",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/323/fitxa/NDc3Mzk4NQ"
+        }
+      ]
+    },
+    "penna": {
+      "cat": [
+        {
+          "t": "puny de drissa",
+          "g": "m"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "puny de drissa",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1NTk5"
+        },
+        {
+          "sigla": "TC-AC",
+          "termini": "puny de drissa",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/323/fitxa/NDc3NzMwNw"
+        }
+      ]
+    },
+    "bugna": {
+      "cat": [
+        {
+          "t": "puny d'escota",
+          "g": "m"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "puny d'escota",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1Mzgy"
+        },
+        {
+          "sigla": "TC-AC",
+          "termini": "puny d'escota",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/323/fitxa/NDc3NzMwOA"
+        }
+      ]
+    },
+    "mura": {
+      "cat": [
+        {
+          "t": "puny d'amura",
+          "g": "m"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "puny d'amura",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1MTUw"
+        },
+        {
+          "sigla": "TC-AC",
+          "termini": "puny d'amura",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/323/fitxa/NDc3NzMwNg"
+        }
+      ]
+    },
+    "terzarolo": {
+      "cat": [
+        {
+          "t": "ris",
+          "g": "m"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "ris",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1MjEw"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "ris (cast. rizo)",
+          "url": "#page=161"
+        }
+      ]
+    },
+    "matafione": {
+      "cat": [
+        {
+          "t": "matafió",
+          "g": "m"
+        },
+        {
+          "t": "botafió de ris",
+          "g": "m"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "FCV-MET",
+          "termini": "caps matafió",
+          "url": "nivell-mitj%C3%A0/identificaci%C3%B3-parts-de-laparell-l%C3%A8xic"
+        },
+        {
+          "sigla": "TC-LM",
+          "termini": "botafió de ris",
+          "url": "#page=6"
+        }
+      ]
+    },
+    "amantiglio": {
+      "cat": [
+        {
+          "t": "amantina",
+          "g": "f"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "amantina",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1MTk5"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "amantina (cast. amantillo)",
+          "url": "#page=146"
+        }
+      ]
+    },
+    "tesabase": {
+      "cat": [
+        {
+          "t": "faixó",
+          "g": "m"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "FCV-MET",
+          "termini": "faixó (pajarín)",
+          "url": "nivell-mitj%C3%A0/identificaci%C3%B3-parts-de-laparell-l%C3%A8xic"
+        }
+      ]
+    },
+    "cunningham": {
+      "cat": [
+        {
+          "t": "cunningham",
+          "g": "m"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "FCV-MET",
+          "termini": "Cunningham",
+          "url": "nivell-mitj%C3%A0/identificaci%C3%B3-parts-de-laparell-l%C3%A8xic"
+        }
+      ]
+    },
+    "vang": {
+      "cat": [
+        {
+          "t": "contra",
+          "g": "f"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "contra",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1MjAy"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "contra (cast. contra)",
+          "url": "#page=150"
+        }
+      ]
+    },
+    "manovre-correnti": {
+      "cat": [
+        {
+          "t": "eixàrcia de treball",
+          "g": "f"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "eixàrcia de treball",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1MTc5"
+        }
+      ]
+    },
+    "vento": {
+      "cat": [
+        {
+          "t": "vent",
+          "g": "m"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "AVL-VN",
+          "termini": "vent (cast. viento)",
+          "url": "#page=164"
+        }
+      ]
+    },
+    "vento-reale": {
+      "cat": [
+        {
+          "t": "vent real",
+          "g": "m"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "vent real",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1NDI5"
+        }
+      ]
+    },
+    "vento-apparente": {
+      "cat": [
+        {
+          "t": "vent aparent",
+          "g": "m"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "vent aparent",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1NDI2"
+        }
+      ]
+    },
+    "sopravvento": {
+      "cat": [
+        {
+          "t": "sobrevent",
+          "g": "m"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "sobrevent",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1NDA3"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "sobrevent, barlovent (cast. barlovento)",
+          "url": "#page=147"
+        }
+      ]
+    },
+    "sottovento": {
+      "cat": [
+        {
+          "t": "sotavent",
+          "g": "m"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "sotavent",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1MjI0"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "sotavent (cast. sotavento)",
+          "url": "#page=162"
+        }
+      ]
+    },
+    "andatura": {
+      "cat": [
+        {
+          "t": "rumb",
+          "g": "m"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "FCV-MET",
+          "termini": "rumb (Posició de la vela en cada rumb)"
+        }
+      ]
+    },
+    "andatura-al-traverso": {
+      "cat": [
+        {
+          "t": "través",
+          "g": "m"
+        },
+        {
+          "t": "navegar de través",
+          "g": "v"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "navegar de través",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1NDUw"
+        },
+        {
+          "sigla": "TC-NAU",
+          "termini": "través",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1MTc2"
+        }
+      ]
+    },
+    "lasco": {
+      "cat": [
+        {
+          "t": "llarg",
+          "g": "m"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "llarg",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1NDU0"
+        }
+      ]
+    },
+    "gran-lasco": {
+      "cat": [
+        {
+          "t": "llarg",
+          "g": "m"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "llarg",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1NDU0"
+        }
+      ]
+    },
+    "andatura-di-poppa": {
+      "cat": [
+        {
+          "t": "en popa",
+          "g": "loc"
+        },
+        {
+          "t": "empopada",
+          "g": "f"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "AVL-VN",
+          "termini": "anar en popa (o vent en popa) (cast. ir en popa)",
+          "url": "#page=160"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "empopada (cast. empopada)",
+          "url": "#page=152"
+        },
+        {
+          "sigla": "TC-NAU",
+          "termini": "empopada",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1NDQz"
+        }
+      ]
+    },
+    "ruota-del-timone": {
+      "cat": [
+        {
+          "t": "roda de governall",
+          "g": "f"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "AVL-VN",
+          "termini": "roda de governall (cast. rueda de gobierno)",
+          "url": "#page=162"
+        }
+      ]
+    },
+    "bompresso": {
+      "cat": [
+        {
+          "t": "bauprès",
+          "g": "m"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-AC",
+          "termini": "bauprès",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/323/fitxa/NDc3Mzk2NQ"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "bauprès (cast. bauprés)",
+          "url": "#page=148"
+        }
+      ]
+    },
+    "braccio-dello-spinnaker": {
+      "cat": [
+        {
+          "t": "braça",
+          "g": "f"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "braça",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1Mjcz"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "braça (cast. braza)",
+          "url": "#page=148"
+        }
+      ]
+    },
+    "landa": {
+      "cat": [
+        {
+          "t": "cadenot",
+          "g": "m"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-LM",
+          "termini": "cadenot",
+          "url": "#page=5"
+        },
+        {
+          "sigla": "VIQUI-CA",
+          "termini": "cadenot",
+          "url": "Cadenot"
+        }
+      ]
+    },
+    "strallo-amovibile": {
+      "cat": [
+        {
+          "t": "estai volant",
+          "g": "m"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "estai volant",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1MzM2"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "estai volant (cast. estay volante)",
+          "url": "#page=153"
+        }
+      ]
+    },
+    "dritto-di-prua": {
+      "cat": [
+        {
+          "t": "roda",
+          "g": "f"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "roda",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1Mzg1"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "roda (cast. roda)",
+          "url": "#page=162"
+        }
+      ]
+    },
+    "avvolgifiocco": {
+      "cat": [
+        {
+          "t": "enrotllador",
+          "g": "m"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "VIQUI-CA",
+          "termini": "enrotllador de vela, enrotllador",
+          "url": "Enrotllador_de_vela"
+        }
+      ]
+    },
+    "falchetta": {
+      "cat": [
+        {
+          "t": "regala",
+          "g": "f"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "regala, soleta",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1MjAw"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "regala (cast. regala)",
+          "url": "#page=161"
+        }
+      ]
+    },
+    "segnavento": {
+      "cat": [
+        {
+          "t": "tastavent",
+          "g": "m"
+        },
+        {
+          "t": "catavent",
+          "g": "m"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "tastavent, catavent",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1Mjk4"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "catavent (cast. cataviento)",
+          "url": "#page=150"
+        }
+      ]
+    },
+    "arridatoio": {
+      "cat": [
+        {
+          "t": "tensor",
+          "g": "m"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "tensor",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1NDE1"
+        }
+      ]
+    },
+    "spinnaker-asimmetrico": {
+      "cat": [
+        {
+          "t": "gennaker",
+          "g": "m"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "FCV-MET",
+          "termini": "gennaker",
+          "url": "nivell-mitj%C3%A0/identificaci%C3%B3-parts-de-laparell-l%C3%A8xic"
+        },
+        {
+          "sigla": "VIQUI-CA",
+          "termini": "gennaker",
+          "url": "Gennaker"
+        }
+      ]
+    },
+    "altezza-sopra-la-linea-di-galleggiamento": {
+      "cat": [
+        {
+          "t": "guinda",
+          "g": "f"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "VIQUI-CA",
+          "termini": "guinda",
+          "url": "Guinda"
+        }
+      ]
+    },
+    "trinchetta": {
+      "cat": [
+        {
+          "t": "trinquetilla",
+          "g": "f"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "AVL-VN",
+          "termini": "trinquetilla (cast. trinquetilla)",
+          "url": "#page=163"
+        },
+        {
+          "sigla": "DIEC2",
+          "termini": "trinquetilla",
+          "url": "Results?DecEntradaText=trinquetilla"
+        }
+      ]
+    },
+    "attrezzatura-velica": {
+      "cat": [
+        {
+          "t": "aparell",
+          "g": "m"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "aparell",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1MTUx"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "aparell (cast. aparejo)",
+          "url": "#page=146"
+        }
+      ]
+    },
+    "inferire": {
+      "cat": [
+        {
+          "t": "envergar",
+          "g": "v"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "envergar",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1MjQz"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "envergar (cast. envergar)",
+          "url": "#page=153"
+        }
+      ]
+    },
+    "bracciare": {
+      "cat": [
+        {
+          "t": "bracejar",
+          "g": "v"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "bracejar",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1Mjg1"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "bracejar (cast. bracear)",
+          "url": "#page=148"
+        }
+      ]
+    },
+    "lascare": {
+      "cat": [
+        {
+          "t": "amollar",
+          "g": "v"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "amollar",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1MTUy"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "amollar (cast. amollar)",
+          "url": "#page=146"
+        }
+      ]
+    },
+    "salpare-l-ancora": {
+      "cat": [
+        {
+          "t": "llevar l'àncora",
+          "g": "v"
+        },
+        {
+          "t": "llevar",
+          "g": "v"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "AVL-VN",
+          "termini": "llevar l'àncora, llevar àncores (cast. levar anclas)",
+          "url": "#page=146"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "llevar (cast. levar)",
+          "url": "#page=156"
+        },
+        {
+          "sigla": "TC-NAU",
+          "termini": "llevar",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1ODk2"
+        }
+      ]
+    },
+    "ormeggiarsi": {
+      "cat": [
+        {
+          "t": "amarrar",
+          "g": "v"
+        },
+        {
+          "t": "amarratge",
+          "g": "m"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "amarrar",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1MTY5"
+        },
+        {
+          "sigla": "TC-NAU",
+          "termini": "amarratge",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1NDQ0"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "amarrar (cast. amarrar)",
+          "url": "#page=146"
+        }
+      ]
+    },
+    "orzare": {
+      "cat": [
+        {
+          "t": "orsar",
+          "g": "v"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "orsar",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1MjU0"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "orsar (cast. orzar)",
+          "url": "#page=159"
+        }
+      ]
+    },
+    "poggiare": {
+      "cat": [
+        {
+          "t": "arribar",
+          "g": "v"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "arribar",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1NTM1"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "arribar (cast. arribar)",
+          "url": "#page=146"
+        }
+      ]
+    },
+    "cazzare": {
+      "cat": [
+        {
+          "t": "caçar",
+          "g": "v"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "caçar",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1MTU4"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "caçar (cast. cazar)",
+          "url": "#page=150"
+        }
+      ]
+    },
+    "filare": {
+      "cat": [
+        {
+          "t": "filar",
+          "g": "v"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "AVL-VN",
+          "termini": "filar (cast. filar)",
+          "url": "#page=154"
+        }
+      ]
+    },
+    "ammainare": {
+      "cat": [
+        {
+          "t": "arriar",
+          "g": "v"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "arriar",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1MTk1"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "arriar (cast. arriar)",
+          "url": "#page=146"
+        }
+      ]
+    },
+    "salpare": {
+      "cat": [
+        {
+          "t": "salpar",
+          "g": "v"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "AVL-VN",
+          "termini": "salpar (cast. zarpar)",
+          "url": "#page=165"
+        }
+      ]
+    },
+    "dar-fondo": {
+      "cat": [
+        {
+          "t": "ancorar",
+          "g": "v"
+        },
+        {
+          "t": "fondejar",
+          "g": "v"
+        },
+        {
+          "t": "ancoratge",
+          "g": "m"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "ancorar, fondejar",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1MTU2"
+        },
+        {
+          "sigla": "TC-NAU",
+          "termini": "ancoratge",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1MTQ3"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "fondejar (cast. fondear)",
+          "url": "#page=154"
+        }
+      ]
+    },
+    "attraccare": {
+      "cat": [
+        {
+          "t": "atracar",
+          "g": "v"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "atracar",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1Mjcx"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "atracar (cast. atracar)",
+          "url": "#page=147"
+        }
+      ]
+    },
+    "sbandare": {
+      "cat": [
+        {
+          "t": "escorar",
+          "g": "v"
+        },
+        {
+          "t": "escora",
+          "g": "f"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "escora",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1MzMx"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "escora (cast. escora)",
+          "url": "#page=153"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "escorar (cast. escorar)",
+          "url": "#page=153"
+        }
+      ]
+    },
+    "fileggiare": {
+      "cat": [
+        {
+          "t": "flamar",
+          "g": "v"
+        },
+        {
+          "t": "flamejar",
+          "g": "v"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "DIEC2",
+          "termini": "flamar (accepció 1: el batedor d'una vela, onejar)",
+          "url": "Results?DecEntradaText=flamar"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "flamar, flamejar (cast. flamear)",
+          "url": "AVL:flamear"
+        }
+      ]
+    },
+    "recuperare-l-imbando": {
+      "cat": [
+        {
+          "t": "cobrar",
+          "g": "v"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "cobrar",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1MzEy"
+        }
+      ]
+    },
+    "ancora": {
+      "cat": [
+        {
+          "t": "àncora",
+          "g": "f"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "àncora",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1MTQ2"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "àncora (cast. ancla)",
+          "url": "#page=146"
+        }
+      ]
+    },
+    "cavo-di-ormeggio": {
+      "cat": [
+        {
+          "t": "amarra",
+          "g": "f"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "amarra",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1MzA0"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "amarra (cast. amarra)",
+          "url": "#page=146"
+        }
+      ]
+    },
+    "spring": {
+      "cat": [
+        {
+          "t": "espring",
+          "g": "m"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "espring",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1NTkx"
+        }
+      ]
+    },
+    "parabordo": {
+      "cat": [
+        {
+          "t": "defensa",
+          "g": "f"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "defensa",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1ODk3"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "defensa (cast. defensa)",
+          "url": "#page=151"
+        }
+      ]
+    },
+    "grillo": {
+      "cat": [
+        {
+          "t": "grilló",
+          "g": "m"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "grilló",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1MzQy"
+        }
+      ]
+    },
+    "salpancore": {
+      "cat": [
+        {
+          "t": "molinet",
+          "g": "m"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "molinet",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1MjUx"
+        }
+      ]
+    },
+    "gavitello": {
+      "cat": [
+        {
+          "t": "boia",
+          "g": "f"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "boia",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1NTUx"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "boia (cast. boya)",
+          "url": "#page=148"
+        }
+      ]
+    },
+    "ormeggiarsi-in-andana": {
+      "cat": [
+        {
+          "t": "abarloar",
+          "g": "v"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "abarloar",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1MTkw"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "abarloar (cast. abarloar)",
+          "url": "#page=145"
+        }
+      ]
+    },
+    "mollare-gli-ormeggi": {
+      "cat": [
+        {
+          "t": "desatracar",
+          "g": "v"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "desatracar",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1MzA3"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "desatracar (cast. desatracar)",
+          "url": "#page=151"
+        }
+      ]
+    },
+    "mettere-la-vela-a-collo": {
+      "cat": [
+        {
+          "t": "aquarterar",
+          "g": "v"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "AVL-VN",
+          "termini": "aquarterar (cast. acuartelar)",
+          "url": "#page=145"
+        },
+        {
+          "sigla": "DIEC2",
+          "termini": "aquarterar (accepció 2.1)",
+          "url": "Results?DecEntradaText=aquarterar"
+        }
+      ]
+    },
+    "mettersi-alla-cappa": {
+      "cat": [
+        {
+          "t": "capejar",
+          "g": "v"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "AVL-VN",
+          "termini": "capejar (cast. capear)",
+          "url": "#page=149"
+        },
+        {
+          "sigla": "DIEC2",
+          "termini": "capejar (capejar², accepció 2)",
+          "url": "Results?DecEntradaText=capejar"
+        }
+      ]
+    },
+    "prua-al-vento": {
+      "cat": [
+        {
+          "t": "proa a vent",
+          "g": "loc"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "proa a vent",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1Mzc3"
+        }
+      ]
+    },
+    "alla-deriva": {
+      "cat": [
+        {
+          "t": "a la deriva",
+          "g": "loc"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "AVL-VN",
+          "termini": "anar a la deriva (cast. ir a la deriva)",
+          "url": "#page=151"
+        }
+      ]
+    },
+    "secca": {
+      "cat": [
+        {
+          "t": "baix",
+          "g": "m"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "DIEC2",
+          "termini": "baix (accepció 2)",
+          "url": "Results?DecEntradaText=baix"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "baix (cast. bajo)",
+          "url": "#page=147"
+        }
+      ]
+    },
+    "annuario-delle-maree": {
+      "cat": [
+        {
+          "t": "taula de marees",
+          "g": "f"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "VIQUI-CA",
+          "termini": "taula de marees",
+          "url": "Taula_de_marees"
+        }
+      ]
+    },
+    "marcia-indietro": {
+      "cat": [
+        {
+          "t": "marxa enrere",
+          "g": "f"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "DIEC2",
+          "termini": "marxa enrere (accepció 8.2: posició del canvi de marxes que permet retrocedir)",
+          "url": "Results?DecEntradaText=marxa"
+        }
+      ]
+    },
+    "folle": {
+      "cat": [
+        {
+          "t": "punt mort",
+          "g": "m"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "DIEC2",
+          "termini": "punt mort (accepció 25.7 a: posició del canvi de marxes sense transmissió de moviment)",
+          "url": "Results?DecEntradaText=punt"
+        }
+      ]
+    },
+    "rotta": {
+      "cat": [
+        {
+          "t": "rumb",
+          "g": "m"
+        },
+        {
+          "t": "derrota",
+          "g": "f"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "rumb, derrota",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1Mzg2"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "derrota (cast. derrota)",
+          "url": "#page=151"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "rumb (accepció 3: direcció que seguix una embarcació)",
+          "url": "#page=122"
+        }
+      ]
+    },
+    "prora": {
+      "cat": [
+        {
+          "t": "rumb",
+          "g": "m"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "AVL-VN",
+          "termini": "rumb (accepció 2: angle format per la direcció de la proa amb el meridià)",
+          "url": "#page=122"
+        }
+      ]
+    },
+    "sartiame": {
+      "cat": [
+        {
+          "t": "eixàrcia ferma",
+          "g": "f"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "eixàrcia ferma",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1MTgw"
+        }
+      ]
+    },
+    "flusso-laminare": {
+      "cat": [
+        {
+          "t": "flux laminar",
+          "g": "m"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "VIQUI-CA",
+          "termini": "flux laminar",
+          "url": "Flux_laminar"
+        }
+      ]
+    },
+    "issare": {
+      "cat": [
+        {
+          "t": "hissar",
+          "g": "v"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "hissar",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1MTk0"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "hissar (cast. izar)",
+          "url": "#page=155"
+        }
+      ]
+    },
+    "istruttore": {
+      "cat": [
+        {
+          "t": "monitor",
+          "g": "m"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "DIEC2",
+          "termini": "monitor monitora (accepció 1: un monitor d'esquí)",
+          "url": "Results?DecEntradaText=monitor"
+        }
+      ]
+    },
+    "bozzello": {
+      "cat": [
+        {
+          "t": "bossell",
+          "g": "m"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "bossell",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1Mjgz"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "bossell (cast. motón)",
+          "url": "#page=158"
+        }
+      ]
+    },
+    "regata": {
+      "cat": [
+        {
+          "t": "regata",
+          "g": "f"
+        }
+      ],
+      "fonti": [
+        {
+          "sigla": "TC-NAU",
+          "termini": "regata",
+          "url": "https://esports.termcat.cat/ca/diccionaris-portal/10/fitxa/NjQ1NDkx"
+        },
+        {
+          "sigla": "AVL-VN",
+          "termini": "regata (cast. regata)",
+          "url": "#page=161"
+        }
+      ]
+    }
+  }
+}

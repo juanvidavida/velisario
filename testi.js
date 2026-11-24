@@ -14,8 +14,8 @@ const TESTI = {
   es: {
     nome: "Español",
     titoloPagina: "Velisario, diccionario náutico de vela",
-    descrizione: "Diccionario de términos de vela en inglés, español, francés e italiano, con búsqueda y uso sin conexión.",
-    sottotitolo: "Diccionario de vela en inglés, español, francés e italiano",
+    descrizione: "Diccionario de términos de vela en catalán, inglés, español, francés e italiano, con búsqueda y uso sin conexión.",
+    sottotitolo: "Diccionario de vela en catalán, inglés, español, francés e italiano",
     linguaInterfaccia: "Idioma de la interfaz",
     installa: "Instalar app",
     istruzioniIos:
@@ -33,7 +33,7 @@ const TESTI = {
     fontiScheda: "Fuentes: ",
     tutte: "Todos",
     tutteCategorie: "Todas las categorías",
-    lingue: { eng: "Inglés", esp: "Español", fra: "Francés", ita: "Italiano" },
+    lingue: { cat: "Catalán", eng: "Inglés", esp: "Español", fra: "Francés", ita: "Italiano" },
     categorie: {
       scafo: "Casco",
       coperta: "Cubierta",
@@ -61,7 +61,7 @@ const TESTI = {
     piede: [
       "Velisario es una adaptación al español de ",
       ["ORIGINALE"],
-      `, de ${ORIGINALE.autore}. Cambios respecto al original: interfaz en español y definiciones y notas traducidas y adaptadas al español, con algunas correcciones. Datos con licencia `,
+      `, de ${ORIGINALE.autore}. Cambios respecto al original: interfaz en español, definiciones y notas traducidas y adaptadas al español, con algunas correcciones, y términos en catalán. Datos con licencia `,
       ["CC BY-SA 4.0", "https://creativecommons.org/licenses/by-sa/4.0/deed.es"],
       ", código con licencia MIT. ",
       ["Código fuente y contribuciones en GitHub", SORGENTI],
@@ -71,8 +71,8 @@ const TESTI = {
   it: {
     nome: "Italiano",
     titoloPagina: "Velisario, dizionario velico multilingue",
-    descrizione: "Dizionario di termini velici in inglese, spagnolo, francese e italiano, con ricerca e uso offline.",
-    sottotitolo: "Dizionario velico in inglese, spagnolo, francese e italiano",
+    descrizione: "Dizionario di termini velici in catalano, inglese, spagnolo, francese e italiano, con ricerca e uso offline.",
+    sottotitolo: "Dizionario velico in catalano, inglese, spagnolo, francese e italiano",
     linguaInterfaccia: "Lingua dell'interfaccia",
     installa: "Installa app",
     istruzioniIos:
@@ -101,7 +101,7 @@ const TESTI = {
     piede: [
       "Velisario è un adattamento in spagnolo di ",
       ["ORIGINALE"],
-      `, di ${ORIGINALE.autore}. Modifiche rispetto all'originale: interfaccia in spagnolo e definizioni e note tradotte e adattate in spagnolo, con alcune correzioni. Dati rilasciati con licenza `,
+      `, di ${ORIGINALE.autore}. Modifiche rispetto all'originale: interfaccia in spagnolo, definizioni e note tradotte e adattate in spagnolo, con alcune correzioni, e termini in catalano. Dati rilasciati con licenza `,
       ["CC BY-SA 4.0", "https://creativecommons.org/licenses/by-sa/4.0/deed.it"],
       ", codice con licenza MIT. ",
       ["Sorgenti e contributi su GitHub", SORGENTI],

@@ -29,6 +29,7 @@ Questo repository è Velisario, un adattamento in spagnolo di Veliglotta (https:
 - Per restare allineati con `upstream`, non modificare il testo italiano di `data/voci.json`.
 - Definizioni e note in spagnolo stanno in `data/voci-es.json`, per id. Non sono una traduzione letterale: sono scritte per un lettore spagnolo, quindi i falsi amici si spiegano dal suo punto di vista (per esempio l'italiano orza o deriva), i rimandi usano il termine spagnolo preferito ("véase escota") e i termini italiani si presentano come tali ("en italiano…"). Valgono le stesse regole delle note italiane.
 - Quando il primo termine spagnolo è uguale in più voci, ognuna ha in `voci-es.json` un `titolo`: un termine spagnolo della voce, con un qualificatore tra parentesi se serve. I rimandi usano quel titolo e stanno fuori dalle parentesi («…; véase través (rumbo).»). `valida_es.py` segnala titoli uguali e rimandi che non corrispondono a nessun titolo.
+- I termini catalani stanno in `data/voci-cat.json`, separati da `voci.json`: per id, `cat` (lista di `{ t, g }` come le altre lingue, con il genere) e `fonti` (citazioni che si aggiungono a quelle della voce). Le opere che contano per il catalano sono elencate all'inizio del file con il loro peso per `cat`; un'opera nuova ci va con titolo e url. La lingua `cat` precede `eng` nell'interfaccia, in ordine alfabetico. Valgono le regole di `FONTI.md`, sezione "Fonti per il catalano": si cita solo ciò che si è letto, e un termine senza fonte non va tra i termini. `python3 scripts/valida_cat.py --punteggi` mostra il livello di ogni voce. Si preferiscono le forme del catalano centrale a quelle valenciane: l'AVL conferma, ma se una fonte catalana dà un'altra forma (per esempio *matafió* invece di *badafió*) si usa quella. Per le voci che le fonti A e B non coprono si accettano fonti C (vedi `FONTI.md`).
 - Ogni traduzione porta l'impronta del testo italiano da cui viene. Dopo un aggiornamento da `upstream`, o quando si aggiunge una voce, esegui `python3 scripts/valida_es.py`: segnala le voci senza traduzione e quelle il cui testo italiano è cambiato. Scrivi o rivedi la traduzione, poi `python3 scripts/valida_es.py --firma ID`.
 
 ## Controlli prima di ogni commit
@@ -36,6 +37,7 @@ Questo repository è Velisario, un adattamento in spagnolo di Veliglotta (https:
 ```
 python3 scripts/valida.py
 python3 scripts/valida_es.py
+python3 scripts/valida_cat.py
 ```
 
 Devono terminare senza errori. Lo stesso controllo gira su GitHub a ogni push che tocca `data/` o `scripts/`, ma non blocca la pubblicazione di Pages: un errore va corretto subito.

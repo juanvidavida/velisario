@@ -216,3 +216,25 @@ Il peso per lingua non dice in quale ambito una fonte è affidabile. Prima di ci
 - Termini proposti il 15 novembre 2026 e non creati: *dévers d'étai* (mancano l'italiano e lo spagnolo).
 - Voci del lessico dei Glénans non create perché manca una fonte in una lingua: virata mancata, false mure, sovrainvelato, atlante delle correnti e cappa secca (spagnolo), vela cazzata a piatto (inglese).
 - Regolamento di Regata 2025-2028: trovati il testo inglese (WS-RRS), la traduzione spagnola (RFEV-RRV) e quella italiana (FIV-RRS). Il testo francese integrale non è scaricabile (solo in abbonamento Omnibook): in francese ci sono il Livre des cas (FFV-CAS) e le Règles d'Équipement (FFV-REV).
+
+## Fonti per il catalano (Velisario)
+
+I pesi per il catalano stanno in `data/voci-cat.json`, non in `data/fonti.json`, per non toccare i dati di Veliglotta. Le copie locali sono in `fonti scaricate/` (TC-NAU, TC-AC e AVL-VN complete, DIEC2 per le parole consultate).
+
+| Sigla | Opera | cat | Note |
+|---|---|---|---|
+| TC-NAU | TERMCAT, Diccionari d'esports nàutics (2008) | A | Il catalano è la lingua delle voci, con categoria grammaticale e definizione. Il sito principale del TERMCAT rifiuta i client automatici (401); lo stesso dizionario è consultabile e scaricabile dal portale https://esports.termcat.cat/ca/diccionaris-portal/10, e le citazioni puntano lì, alla scheda (`fitxa`). |
+| TC-AC | TERMCAT, Terminologia de la Copa Amèrica (2024) | A | Stesso portale, dizionario 323. Testo diverso da TC-NAU, quindi conta come secondo riscontro. |
+| AVL-VN | Acadèmia Valenciana de la Llengua, Vocabulari nàutic, 2a ed. (2018), https://avl.gva.es/documents/31987/65425/Vocabulari_nautic | A | Accademia normativa del valenciano, con definizioni e un'appendice castigliano-valenciano. Le citazioni indicano la pagina del PDF (`#page=N`). Nell'estrazione del testo compaiono spazi spuri dentro le parole: i termini vanno citati come li stampa l'opera. |
+| DIEC2 | Institut d'Estudis Catalans, Diccionari de la llengua catalana, 2a ed., https://dlc.iec.cat/ | A | Dizionario normativo. Contano le accezioni con marca di dominio pertinente, come [TRA] (trasporti, marina) o [ME] (meteorologia). |
+| TC-LM | TERMCAT e Departament de Cultura, Lèxic mariner (2022), https://arxiu.termcat.cat/multimedia/lexic-mariner_1-6.pdf | B | Tavole illustrate con nomenclatura numerata, senza definizioni; soprattutto barche tradizionali, utile per le forme catalane centrali (*botafió de ris*, *cadenot*). |
+| FCV-MET | Federació Catalana de Vela, Metodologia d'ensenyament, https://sites.google.com/vela.cat/metodologia/ | B | Documento di una federazione: elenchi di lessico per l'insegnamento senza definizioni (pagina "Identificació parts de l'aparell"), a volte con la glossa castigliana (*faixó (pajarín)*). Lessico della deriva, non del cabinato. |
+| VIQUI-CA | Viquipèdia in catalano, https://ca.wikipedia.org/wiki/ | C | Enciclopedia collaborativa: si cita il titolo della voce, trovata dal collegamento interlinguistico della voce inglese sul concetto. Serve solo quando manca di meglio; la voce resta a un pallino. |
+
+Il vocabolario nautico di Idiomàtic (idiomatic.cat) copia il testo dell'AVL: non conta come fonte distinta.
+
+Limiti di ambito da controllare prima di citare:
+
+- **TC-NAU**: le schede di *cenyida*, *través*, *llarg* ed *empopada* definiscono il tratto di percorso di una regata navigato con quell'andatura, non l'andatura; si citano per il nome, accanto a un'altra fonte quando c'è. Le aree Rem, Piragüisme e le schede del patí de vela (*carro d'escota*, *piano de pal*, *piano de vela*, *escorar*) hanno sensi diversi da quelli della barca a vela di oggi. *Maniobra* è la manovra della pagaia, *volant* il volante dei motoscafi, *politja* la puleggia (non il bozzello), *allunament* l'allunamento (non lo svergolamento), *mort* il corpo morto e non la boa, *burda* le sartie laterali.
+- **AVL-VN**: molto lessico tradizionale (vela latina, navi antiche) e forme valenciane. *Bulb* è il bulbo di prua, non quello della chiglia; *bossa* è una cima di ritenuta, non la barbetta.
+- **DIEC2**: *carrossa* è un'intelaiatura con tela, non la tuga; *canal* è un canale scavato, non un passaggio segnalato; *tàctica* è l'arte, non la persona.

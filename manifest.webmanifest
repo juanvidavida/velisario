@@ -1,7 +1,7 @@
 {
   "name": "Velisario, diccionario náutico de vela",
   "short_name": "Velisario",
-  "description": "Términos de vela en inglés, español, francés e italiano.",
+  "description": "Términos de vela en catalán, inglés, español, francés e italiano.",
   "lang": "es",
   "start_url": "./",
   "scope": "./",

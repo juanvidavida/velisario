@@ -1,6 +1,7 @@
 "use strict";
 
 const LINGUE = [
+  { codice: "cat", nome: "Catalano" },
   { codice: "eng", nome: "Inglese" },
   { codice: "esp", nome: "Spagnolo" },
   { codice: "fra", nome: "Francese" },
@@ -48,7 +49,7 @@ const LIVELLI = [
   "una fonte autorevole e un secondo riscontro",
 ];
 
-const LINGUA_HTML = { eng: "en", esp: "es", fra: "fr", ita: "it" };
+const LINGUA_HTML = { cat: "ca", eng: "en", esp: "es", fra: "fr", ita: "it" };
 
 /* Lingua dell'interfaccia, con i testi in testi.js, e lingua dei termini usati
    come titolo delle schede. */
@@ -119,7 +120,8 @@ function fold(s) {
       .replace(/\p{M}/gu, "")
       .toLowerCase()
       .replace("œ", "oe")
-      .replace("æ", "ae");
+      .replace("æ", "ae")
+      .replace("·", "");
     for (let k = 0; k < f.length; k++) {
       str += f[k];
       map.push(i);
@@ -555,6 +557,23 @@ function mostraErrore(chiave) {
   el.errore.hidden = false;
 }
 
+/* Termini catalani da data/voci-cat.json: pesi per cat e opere nuove nel catalogo,
+   termini e citazioni nelle voci. I dati di Veliglotta restano in voci.json e fonti.json. */
+function aggiungiCatalano(dati) {
+  for (const f of dati.fonti || []) {
+    const c = catalogo.get(f.sigla);
+    if (c) c.pesi = { ...c.pesi, ...f.pesi };
+    else catalogo.set(f.sigla, { ...f, indice: catalogo.size });
+  }
+  const perId = dati.voci || {};
+  for (const v of voci) {
+    const e = perId[v.id];
+    if (!e) continue;
+    v.cat = e.cat;
+    v.fonti = [...(v.fonti || []), ...(e.fonti || [])];
+  }
+}
+
 async function avvia() {
   costruisciControlli();
   leggiUrl();
@@ -566,6 +585,10 @@ async function avvia() {
   const spagnolo = fetch("data/voci-es.json")
     .then((r) => (r.ok ? r.json() : { voci: {} }))
     .catch(() => ({ voci: {} }));
+
+  const catalano = fetch("data/voci-cat.json")
+    .then((r) => (r.ok ? r.json() : { fonti: [], voci: {} }))
+    .catch(() => ({ fonti: [], voci: {} }));
 
   const fonti = fetch("data/fonti.json")
     .then((r) => (r.ok ? r.json() : { fonti: [] }))
@@ -584,6 +607,7 @@ async function avvia() {
   /* Senza catalogo le schede mostrano comunque le sigle, senza ordine per peso. */
   traduzioni = (await spagnolo).voci || {};
   catalogo = new Map((await fonti).fonti.map((c, indice) => [c.sigla, { ...c, indice }]));
+  aggiungiCatalano(await catalano);
   disegnaElencoFonti();
 
   costruisciIndice();
