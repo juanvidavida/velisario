@@ -4,7 +4,7 @@
   --testo: #14232f;
   --tenue: #5a6b78;
   --bordo: #d5dee6;
-  --accento: #0b3a5b;
+  --accento: #14284b;
   --accento-testo: #ffffff;
   --evidenza: #ffe58a;
   --errore: #a4262c;
@@ -47,7 +47,7 @@ body {
 
 .testata {
   position: relative;
-  background: #0b3a5b;
+  background: #14284b;
   color: #ffffff;
   padding: 1.25rem 1rem 1rem;
   text-align: center;
@@ -75,7 +75,7 @@ body {
 }
 
 .interfaccia .chip[aria-pressed="true"] {
-  color: #0b3a5b;
+  color: #14284b;
   background: #ffffff;
   border-color: #ffffff;
 }

@@ -1,12 +1,49 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180">
-  <rect width="180" height="180" fill="#0b3a5b"/>
-  <polygon points="78,16 78,130 162,130" fill="#ffffff"/>
-  <rect x="74" y="12" width="5" height="128" rx="2" fill="#ffffff"/>
-  <g transform="translate(110,102) scale(0.78) translate(-40,-94)">
-    <path d="M12 92 C22 94 32 96 40 96 C48 96 58 94 68 92 C64 106 52 114 40 114 C28 114 16 106 12 92 Z" fill="#ff6b81"/>
-    <path d="M12 92 C20 86 26 76 34 76 C37 76 39 79 40 81 C41 79 43 76 46 76 C54 76 60 86 68 92 C58 94 48 96 40 96 C32 96 22 94 12 92 Z" fill="#e8506a"/>
-    <path d="M12 92 C22 94 32 96 40 96 C48 96 58 94 68 92" stroke="#9c2238" stroke-width="3.5" stroke-linecap="round" fill="none"/>
-    <path d="M28 104 C33 108 43 108 50 104" stroke="#ffa3b2" stroke-width="4" stroke-linecap="round" fill="none"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <clipPath id="fondo">
+      <rect x="0" y="0" width="512" height="512" rx="110" ry="110"/>
+    </clipPath>
+    <linearGradient id="vela" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#DDE6F0"/>
+    </linearGradient>
+    <linearGradient id="casco" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F2B84F"/>
+      <stop offset="1" stop-color="#C97E2B"/>
+    </linearGradient>
+  </defs>
+  <g clip-path="url(#fondo)">
+    <!-- Fondo azul marino -->
+    <rect x="0" y="0" width="512" height="512" fill="#14284B"/>
+
+    <!-- Velero grande, centrado a la izquierda -->
+    <g transform="translate(230 272) scale(1.5) translate(-256 -262)">
+      <!-- Sombra del agua bajo el casco -->
+      <ellipse cx="256" cy="408" rx="150" ry="9" fill="#0B1A33" opacity="0.45"/>
+
+      <!-- Mástil con banderín -->
+      <rect x="253" y="110" width="6" height="242" fill="#E9E4D8"/>
+      <path d="M259 110 L290 119 L259 128 Z" fill="#E9B85C"/>
+
+      <!-- Vela alta con la baluma curva -->
+      <path d="M262 118 Q330 200 404 344 L262 344 Z" fill="url(#vela)"/>
+
+      <!-- Diccionario: más grande, bajado y centrado en la vela -->
+      <g transform="translate(302 234) scale(1.3) translate(-292 -212)">
+        <g fill="none" stroke="#14284B" stroke-width="2.5" stroke-linejoin="round">
+          <path d="M272 206 Q282 201 292 208 L292 222 Q282 216 272 220 Z"/>
+          <path d="M292 208 Q302 201 312 206 L312 220 Q302 216 292 222 Z"/>
+        </g>
+        <g stroke="#14284B" stroke-width="2" stroke-linecap="round">
+          <line x1="277" y1="212" x2="287" y2="211"/>
+          <line x1="277" y1="217" x2="287" y2="216"/>
+          <line x1="297" y1="212" x2="307" y2="212"/>
+        </g>
+      </g>
+
+      <!-- Casco con línea de cubierta -->
+      <path d="M136 344 L384 344 Q370 392 330 404 L192 404 Q150 392 136 344 Z" fill="url(#casco)"/>
+      <path d="M150 368 L370 368" stroke="#14284B" stroke-width="5" stroke-linecap="round"/>
+    </g>
   </g>
-  <polygon points="32,138 164,138 164,160 62,160" fill="#8cc8f0"/>
 </svg>

@@ -3,7 +3,7 @@
 /* Cambiare CACHE solo se cambia l'elenco dei file di SHELL.
    I contenuti si aggiornano da soli: ogni risorsa viene servita dalla cache
    e rinfrescata in background, quindi una modifica appare alla visita successiva. */
-const CACHE = "velisario-v4";
+const CACHE = "velisario-v5";
 const SHELL = [
   "./",
   "index.html",
@@ -15,6 +15,9 @@ const SHELL = [
   "data/fonti.json",
   "manifest.webmanifest",
   "icon.svg",
+  "icon-192.png",
+  "icon-512.png",
+  "icon-maskable-512.png",
   "apple-touch-icon.png",
 ];
 
